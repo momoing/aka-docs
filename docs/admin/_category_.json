@@ -1,0 +1,10 @@
+{
+  "label": "Admin & Ops",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Administration, operations, and troubleshooting guides for akaBot."
+  }
+}
