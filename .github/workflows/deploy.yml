@@ -82,7 +82,7 @@ jobs:
 
     environment:
       name: production
-      url: https://docs.akabot.com
+      url: https://docs.akabot.com:8081
 
     steps:
       - name: Deploy via SSH

@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Robotic Process Automation Platform',
   favicon: 'img/favicon.ico',
 
-  url: 'https://docs.akabot.com',
+  url: 'https://docs.akabot.com:8081',
   baseUrl: '/',
 
   organizationName: 'akaBot',
