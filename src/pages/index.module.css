@@ -164,6 +164,7 @@
 
 /* tagline */
 .tagline { border-top: 1px solid #e5e7eb; padding: 36px 0 8px; margin-top: 8px; }
+:global([data-theme='dark']) .tagline { border-top-color: #2d3f55; }
 .taglineInner {
   display: grid; grid-template-columns: 260px 1fr;
   gap: 32px; align-items: baseline;
@@ -172,7 +173,9 @@
   font-size: 26px; font-weight: 700; font-style: italic;
   color: #e11d48; margin: 0; letter-spacing: -0.01em;
 }
+:global([data-theme='dark']) .taglineLede { color: #fb7185; }
 .taglineBody { color: #1f2a44; font-size: 13.5px; margin: 0; max-width: 720px; line-height: 1.65; }
+:global([data-theme='dark']) .taglineBody { color: #94a3b8; }
 
 @media (max-width: 900px) {
   .cards, .platformGrid { grid-template-columns: 1fr 1fr; }
