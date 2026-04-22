@@ -118,17 +118,48 @@
 }
 :global([data-theme='dark']) .platformTitle { color: #e2e8f0; }
 .platformGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+/* Per-tile accent colours — light mode */
+.platformGrid > a:nth-child(1) { --t-bg:#EFF6FF; --t-border:#BFDBFE; --t-color:#1D4ED8; --t-hover-bg:#DBEAFE; --t-hover-border:#93C5FD; } /* Studio   — blue    */
+.platformGrid > a:nth-child(2) { --t-bg:#F5F3FF; --t-border:#DDD6FE; --t-color:#6D28D9; --t-hover-bg:#EDE9FE; --t-hover-border:#C4B5FD; } /* Center   — violet  */
+.platformGrid > a:nth-child(3) { --t-bg:#FFF7ED; --t-border:#FED7AA; --t-color:#C2410C; --t-hover-bg:#FFEDD5; --t-hover-border:#FDBA74; } /* Agent    — orange  */
+.platformGrid > a:nth-child(4) { --t-bg:#FFFBEB; --t-border:#FDE68A; --t-color:#B45309; --t-hover-bg:#FEF3C7; --t-hover-border:#FCD34D; } /* Activities— amber  */
+.platformGrid > a:nth-child(5) { --t-bg:#F0FDFA; --t-border:#99F6E4; --t-color:#0F766E; --t-hover-bg:#CCFBF1; --t-hover-border:#5EEAD4; } /* Data     — teal    */
+.platformGrid > a:nth-child(6) { --t-bg:#EEF2FF; --t-border:#C7D2FE; --t-color:#4338CA; --t-hover-bg:#E0E7FF; --t-hover-border:#A5B4FC; } /* Vision   — indigo  */
+.platformGrid > a:nth-child(7) { --t-bg:#F0FDF4; --t-border:#BBF7D0; --t-color:#15803D; --t-hover-bg:#DCFCE7; --t-hover-border:#86EFAC; } /* Insight  — green   */
+.platformGrid > a:nth-child(8) { --t-bg:#F0F9FF; --t-border:#BAE6FD; --t-color:#0369A1; --t-hover-bg:#E0F2FE; --t-hover-border:#7DD3FC; } /* Hub      — sky     */
+.platformGrid > a:nth-child(9) { --t-bg:#FDF4FF; --t-border:#E9D5FF; --t-color:#7E22CE; --t-hover-bg:#FAE8FF; --t-hover-border:#D8B4FE; } /* Integr.  — fuchsia */
+
+/* Per-tile accent colours — dark mode */
+:global([data-theme='dark']) .platformGrid > a:nth-child(1) { --t-bg:#1e3558; --t-border:#2d4d80; --t-color:#93C5FD; --t-hover-bg:#254070; --t-hover-border:#60A5FA; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(2) { --t-bg:#2a1f52; --t-border:#3d2d78; --t-color:#C4B5FD; --t-hover-bg:#332462; --t-hover-border:#A78BFA; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(3) { --t-bg:#3d1f00; --t-border:#6b3800; --t-color:#FDBA74; --t-hover-bg:#4d2800; --t-hover-border:#FB923C; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(4) { --t-bg:#3d2c00; --t-border:#6b4d00; --t-color:#FCD34D; --t-hover-bg:#4d3800; --t-hover-border:#F59E0B; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(5) { --t-bg:#003d35; --t-border:#00665a; --t-color:#5EEAD4; --t-hover-bg:#004d44; --t-hover-border:#2DD4BF; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(6) { --t-bg:#1e1b4b; --t-border:#312e7a; --t-color:#A5B4FC; --t-hover-bg:#26235e; --t-hover-border:#818CF8; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(7) { --t-bg:#052e16; --t-border:#0a5228; --t-color:#86EFAC; --t-hover-bg:#073d1e; --t-hover-border:#4ADE80; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(8) { --t-bg:#0c2d4a; --t-border:#164e78; --t-color:#7DD3FC; --t-hover-bg:#103860; --t-hover-border:#38BDF8; }
+:global([data-theme='dark']) .platformGrid > a:nth-child(9) { --t-bg:#3b1554; --t-border:#62238a; --t-color:#E9D5FF; --t-hover-bg:#4a1a6a; --t-hover-border:#C084FC; }
+
 .tile {
   display: flex; align-items: center;
   padding: 20px 22px;
-  background: #fff;
-  border: 1px solid #e5e7eb;
+  background: var(--t-bg, #fff);
+  border: 1px solid var(--t-border, #e5e7eb);
   border-radius: 8px;
-  color: #c41c3a; font-weight: 600; font-size: 13.5px;
+  color: var(--t-color, #1f2a44);
+  font-weight: 600; font-size: 13.5px;
   min-height: 64px;
-  transition: border-color .2s, box-shadow .2s, color .12s;
+  transition: background .2s, border-color .2s, box-shadow .2s, color .12s;
 }
-.tile:hover { border-color: #c41c3a; color: #8c132a; box-shadow: 0 4px 16px -8px rgba(15,42,82,0.12); text-decoration: none; }
+.tile:hover {
+  background: var(--t-hover-bg, #f9fafb);
+  border-color: var(--t-hover-border, #d1d5db);
+  color: var(--t-color);
+  box-shadow: 0 4px 16px -8px rgba(15,42,82,0.15);
+  text-decoration: none;
+}
+:global([data-theme='dark']) .tile:hover { box-shadow: 0 4px 16px -8px rgba(0,0,0,0.4); }
 .tileIcon { font-size: 18px; margin-right: 10px; flex-shrink: 0; }
 
 /* tagline */
