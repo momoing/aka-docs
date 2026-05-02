@@ -1,7 +1,6 @@
 # Akabot Documentation Content
 
-This repository holds the markdown content for the Akabot documentation site
-([https://docs.akabot.com:8081](https://docs.akabot.com:8081)). Site code, build
+This repository holds the markdown content for the Akabot documentation site. Site code, build
 configuration, and styling live in a separate internal repository — you don't
 need access to it.
 
@@ -142,5 +141,5 @@ maintainer.
                       build repo: pull, build, push image, ssh deploy
                                 |
                                 v
-                         docs.akabot.com:8081 updated (~5 min)
+                         docs-v2.akabot.com updated (~5 min)
 ```
