@@ -1,8 +1,6 @@
-# Akabot Documentation Content
+# Akabot Documentation
 
-This repository holds the markdown content for the Akabot documentation site. Site code, build
-configuration, and styling live in a separate internal repository — you don't
-need access to it.
+This repository holds the markdown content for the Akabot documentation site.
 
 ## How to contribute
 
@@ -87,7 +85,7 @@ When a release is ready to be frozen as version `2.0` (for example):
 3. Continue evolving `latest/` — it represents the *next* release.
 4. Commit, PR, merge.
 
-The site's version selector picks up `2.0` automatically. **No CLI commands.**
+The site's version selector picks up `2.0` automatically.
 
 ### Add a new activity package
 
@@ -216,8 +214,8 @@ maintainer.
    maintainer            (notify build repo)
                                 |
                                 v
-                      build repo: pull, build, push image, ssh deploy
+                          build repo
                                 |
                                 v
-                         docs-v2.akabot.com updated (~5 min)
+                          docs.akabot.com updated (~5 min)
 ```
