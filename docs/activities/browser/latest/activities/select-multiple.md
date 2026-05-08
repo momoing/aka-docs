@@ -42,7 +42,7 @@ The Select Multiple Items activity allows you to select many items from a combo 
   ・INDEX – Index of the item (Starting from 0).  
   ・VALUE – Value of the item.  
   ・TEXT – Text of the item.
-* **Select Value (String)\***- The value based on the type of selection you want to use. It has to be encased in quotation marks. Format: {“Value1”, “Value2”,…”ValueN”}
+* **Select Value (String)\***- The value based on the type of selection you want to use. It has to be encased in quotation marks. Format: `{“Value1”, “Value2”,…”ValueN”}`
 * **Selector (String)**\* - Text property used to find a particular UI element when the activity is executed. It is actually a XML fragment specifying attributes of the GUI element you are looking for and of some of its parents.
 * **Wait Visible (Checkbox)**- Check this box if you want the automation waits for the target to be visible before executing the activity. This is checked by default
 

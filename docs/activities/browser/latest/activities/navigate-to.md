@@ -21,7 +21,7 @@ The Navigate To activity allows you to navigate to another URL on the current br
 ## **In the body of the activity**
 
 * **URL to be inserted (String)\***- The URL that you want to navigate to in the browser. The URL must be quoted.  
-  E.g: "<https://www.google.com/>"
+  E.g: "https://www.google.com/"
 
 ## **Properties**
 
@@ -34,7 +34,7 @@ The Navigate To activity allows you to navigate to another URL on the current br
 **Input**
 
 * **URL (String)**\*– (String) Starting this destination URL when the browser is opened.  
-  E.g: "<https://www.google.com/>"
+  E.g: "https://www.google.com/"
 
 **Misc**
 

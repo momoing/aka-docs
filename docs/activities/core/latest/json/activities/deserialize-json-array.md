@@ -21,14 +21,14 @@ This activity allows you to deserialize the JSON array string to a JSON Array Ob
 **In the body of activity**
 
 * **JSON String (String)\***- This contains the JSON string you want to deserialize. The JSON should be written without idents, and between double quotes. Each String within the array should be written with single quotes.  
-  E.g: "[{'Name': 'Maria 1'}, {'Name': 'Maria 2'}]"
+  E.g: `[{'Name': 'Maria 1'}, {'Name': 'Maria 2'}]`
 
 ## **Properties**
 
 **Input**
 
 * **JSON String (String)\***- This contains the JSON string you want to deserialize. The JSON should be written without idents, and between double quotes. Each String within the array should be written with single quotes.  
-  E.g: "[{'Name': 'Maria 1'}, {'Name': 'Maria 2'}]"
+  E.g: `[{'Name': 'Maria 1'}, {'Name': 'Maria 2'}]`
 
 **Misc**
 

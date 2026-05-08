@@ -28,8 +28,8 @@ You can set the status of a transaction item to Failed or Successful.
 
 **Input**
 
-* **Analytics (Dictionnary<String, InArgument>)** - A collection of analytics information about the specific TransactionItem whose status is to be updated.
-* **Output (Dictionnary<String, InArgument>)** - A collection of additional information about the specific transaction item whose status is updated.
+* **Analytics (`Dictionnary<String, InArgument>`)** - A collection of analytics information about the specific TransactionItem whose status is to be updated.
+* **Output (`Dictionnary<String, InArgument>`)** - A collection of additional information about the specific transaction item whose status is updated.
 * **Status (DropDownlist)** - The status that is to be set to the transaction item. Successful | Fail
 * **Transaction Item (QueueItem)**- The items you want to update status
 

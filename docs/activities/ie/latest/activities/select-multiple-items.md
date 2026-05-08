@@ -32,7 +32,7 @@ The Select Multiple Items activity allows you to select many items from a combo 
 
 **Input**
 
-* **Selecting Values (String)\***- The value is based on the type of selection you want to use. It has to be encased in quotation marks. Format: {“Value1”, “Value2”,…”ValueN”}
+* **Selecting Values (String)\***- The value is based on the type of selection you want to use. It has to be encased in quotation marks. Format: `{“Value1”, “Value2”,…”ValueN”}`
 * **Selector (String)**\* - String of characters that identifies the specified field.
 
 **Options**

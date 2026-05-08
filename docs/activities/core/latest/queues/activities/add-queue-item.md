@@ -32,7 +32,7 @@ This activity enables you to add a new item to the queue. The status of the item
 
 * **Deadline (DateTime)** - The date right before the queue item is processed.
 * **Item Information** - The additional information about the new queue that you add to. The information is stored in the item and is used during transaction processing.
-* **Item Information Collection (Dictionary<String, Object>)** - This allows you to import the entire dictionary of information for a queue item. String supported only.
+* **Item Information Collection (`Dictionary<String, Object>`)** - This allows you to import the entire dictionary of information for a queue item. String supported only.
 * **Postpone (DateTime)**- The date after the queue item may be processed.
 * **Priority (DropDownlist)**\* - The priority level of the queue. You can choose: low, normal, high level. The default value is: Normal.
 * **QueueName (String)**\* - The queue to which the new queue item is added. String supported only.

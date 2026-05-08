@@ -39,7 +39,7 @@ This Select Item activity allows you to select specific items from a Java file.
           Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

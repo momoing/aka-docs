@@ -26,7 +26,7 @@ This activity allows you to check if an image exists or not
 
 **Input**
 
-* **Delay MS (Int32)** - Wait for activity to run in a specified amount of time. If no input value OR input value <= 1000, the waiting amount = 1000ms (1s). Otherwise, wait time = input value.
+* **Delay MS (Int32)** - Wait for activity to run in a specified amount of time. If no input value OR input value \<= 1000, the waiting amount = 1000ms (1s). Otherwise, wait time = input value.
 
 **Misc**
 

@@ -35,7 +35,7 @@ The Navigate To activity allows you to navigate to another URL on the current br
 **Input**
 
 * **URL (String)**\* – Starting this destination URL when the browser is opened.  
-  E.g: "<https://www.google.com/>"
+  E.g: "https://www.google.com/"
 
 **Misc**
 

@@ -27,7 +27,7 @@ The Navigate To activity allows you to navigate to another URL on the current br
 **Input**
 
 * **Url (String)\***- The URL that you want to navigate to in the browser. The URL must be quoted.  
-  Ex: <https://akabot.com/>
+  Ex: https://akabot.com/
 
 **Misc**
 

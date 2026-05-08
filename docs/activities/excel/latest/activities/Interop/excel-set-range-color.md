@@ -28,7 +28,7 @@ This activity allows changing color of a specified cell or cell range using a Co
   E.g: “A1:K10”
 * **Color (System.Drawing.Color)**\* - The extracted color stored as a system drawing color variable.  
   E.g: Color.Red  
-  For list of color: <https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-5.0>
+  For list of color: https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-5.0
 
 **Misc**
 

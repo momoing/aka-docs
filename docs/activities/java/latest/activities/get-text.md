@@ -37,7 +37,7 @@ This activity allows you to get text from a Java file.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

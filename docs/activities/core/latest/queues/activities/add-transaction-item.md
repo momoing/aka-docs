@@ -31,7 +31,7 @@ This Add Transaction Item activity allows you to add an item in the queue, start
   E.g: "queue2503".
 * **Reference (String)** - This feature is used to link your transactions to other applications used within an automation project.  
   E.g: count.ToString.
-* **Transaction Information(Dictionnary<String,InArgument>)**- A collection of additional information about the transaction which you want to add.
+* **Transaction Information(`Dictionnary<String,InArgument>`)**- A collection of additional information about the transaction which you want to add.
 
 **Misc**
 

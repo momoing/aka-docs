@@ -36,7 +36,7 @@ The Navigate To activity allows you to navigate to another URL on the current br
 
 * **Browser (NativeBrowser)** - The existing browser variable that you want to attach to.
 * **URL (String)**\* – Starting this destination URL when the browser is opened.  
-  E.g: "<https://www.google.com/>"
+  E.g: "https://www.google.com/"
 
 **Misc**
 

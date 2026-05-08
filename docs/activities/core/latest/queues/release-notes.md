@@ -17,7 +17,7 @@ displayed_sidebar: activitiesSidebar
 * [GetQueueItems] There was an error while creating the Output variable: Queue Items.
 * [DeleteQueueItems] Can set the status for Queue Items from Abandoned, Failed, Successful to Deleted.
 * [PostponeTransactionItem] System throws an unexpected exception when the Agent is deleted right before PostponeTransactionItem is executed.
-* [PostponeTransactionItem] PostponeTransactionItem works even when Deadline <= Postpone.
+* [PostponeTransactionItem] PostponeTransactionItem works even when Deadline \<= Postpone.
 * [PostponeTransactionItem] Items with 'InProgress' can be postponed.
 * [AddQueueItem] Should NOT allow adding a QueueItem with "Postpone" after "Deadline".
 

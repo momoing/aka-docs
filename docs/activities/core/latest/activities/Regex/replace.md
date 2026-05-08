@@ -26,10 +26,10 @@ This activity allows you to replace a match by a regular expression pattern with
   E.g: [997394325] Replace
 * **Input (String)**\* - The string that you want to find a match.  
   E.g: “This phrase will be replaced”
-* **Pattern (String)**\*- The pattern of the expression that you want to search for matches. Example on regular expression pattern: <https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference>  
+* **Pattern (String)**\*- The pattern of the expression that you want to search for matches. Example on regular expression pattern: https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference  
   E.g: “\d{2}-\d{2}-\d{4}”
 * **Public (Checkbox)** - If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
-* **Regex Option (Dropdown list)** - You check it if you want to add bitwise combination of the enumeration for matching. For more details of the options, visit: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-options>
+* **Regex Option (Dropdown list)** - You check it if you want to add bitwise combination of the enumeration for matching. For more details of the options, visit: https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-options
 * **Replacement (String)**\* - The replacement string  
   E.g: “That sentence”
 

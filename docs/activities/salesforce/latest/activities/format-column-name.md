@@ -28,4 +28,4 @@ This activity replaces the column names within a designated DataTable variable.
 
 **Options**
 
-* **InvalidColumns:**The list of the column names which are unable to match with those provided in the Mapping property. It's stored in an IEnumerable<String> variable.
+* **InvalidColumns:**The list of the column names which are unable to match with those provided in the Mapping property. It's stored in an `IEnumerable<String>` variable.

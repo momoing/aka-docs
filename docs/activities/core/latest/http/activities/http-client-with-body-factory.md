@@ -32,7 +32,7 @@ Content
       ・XML  
       ・JSON.
     * **End Point (String)**\* - The URL to which you want to make the request.  
-      Ex: <https://akabot.com/>
+      Ex: https://akabot.com/
     * **Method (Dropdown List)**– The request method to be used when calling the API. The following HTTP verbs are supported: **GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH** and **MERGE.**  
       By default, the **GET** method is selected.
 

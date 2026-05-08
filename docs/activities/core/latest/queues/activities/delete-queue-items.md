@@ -29,7 +29,7 @@ This activity allows you to delete items in a specific queue. Notes: In order to
 
 **Input**
 
-* **Queue Items (IEnumerable<Queue.Item>)**\* - You need to use Get Queue Items activity to get all items that the user wants to delete and the value of this property is the output items of Get Queue Items activity. Set status of all Queue items specified in [Queue Items] as Deleted except Queue items has status is InProgress can not change to Deleted.
+* **Queue Items (`IEnumerable<Queue.Item>`)**\* - You need to use Get Queue Items activity to get all items that the user wants to delete and the value of this property is the output items of Get Queue Items activity. Set status of all Queue items specified in [Queue Items] as Deleted except Queue items has status is InProgress can not change to Deleted.
 
 **Misc**
 

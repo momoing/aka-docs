@@ -37,7 +37,7 @@ This activity allows you to save mail attachments to specified folder. If there 
 
 **Output**
 
-* **Attachments (IEnumerable<String>)** - The attachments to be added to the email message.
+* **Attachments (`IEnumerable<String>`)** - The attachments to be added to the email message.
 
 Table of Content
 

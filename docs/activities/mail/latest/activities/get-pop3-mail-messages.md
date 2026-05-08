@@ -47,7 +47,7 @@ This activity allows you to retrieve a POP3 email from a specified server.
 
 **Output**
 
-* **Messages (List<MailMessage>)** - The retrieved messages as a collection of MailMessage objects.
+* **Messages (`List<MailMessage>`)** - The retrieved messages as a collection of MailMessage objects.
 
 Table of Content
 

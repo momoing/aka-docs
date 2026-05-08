@@ -35,7 +35,7 @@ This activity allows you to pick elements and execute other actions.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

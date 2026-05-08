@@ -38,7 +38,7 @@ This activity allows you to check if the element exists in a Java file
            Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

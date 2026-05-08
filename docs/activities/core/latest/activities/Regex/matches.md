@@ -26,10 +26,10 @@ This activity allows you to search string and it will return to successful match
   E.g: [997394815] Matches
 * **Input (String)**\* - The string that you want to find a match.  
   E.g: “This is a phrase”
-* **Pattern (String)**\*- The pattern of the expression that you want to search for matches. Example on regular expression pattern: <https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference>  
+* **Pattern (String)**\*- The pattern of the expression that you want to search for matches. Example on regular expression pattern: https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference  
   E.g: “\d{2}-\d{2}-\d{4}”
 * **Public (Checkbox)** - If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
-* **Regex Option (Dropdown box)**- You check it if you want to add bitwise combination of the enumeration for matching. For more details of the options, visit: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-options>
+* **Regex Option (Dropdown box)**- You check it if you want to add bitwise combination of the enumeration for matching. For more details of the options, visit: https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-options
 
 **Output**
 

@@ -22,7 +22,7 @@ This activity allows you to send email messages from Exchange.
 
 **Attachments**
 
-* **Attachments Collection (IEnumerable< String >)** - An IEnumerable object that specifies a list of files which you want to send as attachments.
+* **Attachments Collection (`IEnumerable<String>`)** - An IEnumerable object that specifies a list of files which you want to send as attachments.
 * **Attachment** - A list of string arguments that represent the attachments you want to send alongside the email.
 
 **Connection**
@@ -35,8 +35,8 @@ This activity allows you to send email messages from Exchange.
 
   EWSPlease refer to these link to know more about EWS
 
-  1. <https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api>
-  2. <https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140>)
+  1. https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api
+  2. https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140)
 
 **Forward**
 

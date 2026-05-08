@@ -33,7 +33,7 @@ This activity allows you to click a specified element.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

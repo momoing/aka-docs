@@ -51,7 +51,7 @@ This activity allows you to retrieve an IMAP email message from a specified serv
 
 **Output**
 
-* **Messages (List<MailMessage>)** - The retrieve message of mail collection.
+* **Messages (`List<MailMessage>`)** - The retrieve message of mail collection.
 
 Table of Content
 

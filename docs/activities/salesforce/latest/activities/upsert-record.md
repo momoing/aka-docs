@@ -30,7 +30,7 @@ Content
 
     **Output**
 
-    * **Multiple Choices** – The IEnumerable<String> variable to store the records in case that multiple records are found matching with the external ID field.
+    * **Multiple Choices** – The `IEnumerable<String>` variable to store the records in case that multiple records are found matching with the external ID field.
     * **Result** – Indicate the result of the performed action. 4 below values are possible:
       + INSERTED: Returned in case of successful inserting action.
       + UPDATED: Returned in case of successful updating action

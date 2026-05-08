@@ -36,7 +36,7 @@ This activity allows you to expand/collapse activities.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 

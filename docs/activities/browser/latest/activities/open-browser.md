@@ -50,7 +50,7 @@ The Open Browser activity allows you to navigate to a specified URL by launching
 * **Timeout MS (Int32)**- The maximum amount of time (in milliseconds) to wait for the activity to complete before an error is thrown. If the timeout expires, the activity will be terminated. Default value: 30000 (milliseconds).  
   Eg: 30000
 * **URL (String)**\* – Starting this destination URL when the browser is opened.  
-  E.g: "<https://akabot.com/>"
+  E.g: "https://akabot.com/"
 
 **Proxy**
 
@@ -72,7 +72,7 @@ Eg: [34235252] Open Browser
 
 * **Arguments:**
   + In case no data needs to be passed => Leave the field empty and click **OK**
-  + In case you need to pass input data (Direction = In) => Click "Create argument" => Fill in "Value" column: E.g: Value = <https://akabot.com/>
+  + In case you need to pass input data (Direction = In) => Click "Create argument" => Fill in "Value" column: E.g: Value = https://akabot.com/
 * **Default Download Folder (String)**- Default folder to save file  
   E.g: “D:\Users\"
 * **Edge le Mode (Checkbox):**If the checkbox is selected, the browser will run in Internet Explorer (IE) mode, allowing compatibility with legacy websites that require IE rendering. Default value is unchecked.

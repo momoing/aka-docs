@@ -44,7 +44,7 @@ This Type Into activity allows you to type into a specified Java file.
 **Eg**:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 * **Text (String)** - The text to enter.
 

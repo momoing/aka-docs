@@ -36,11 +36,11 @@ The Inject JavaScript allows you to inject JavaScript on a webpage.
   + In case no data needs to be passed => Leave the field empty and click **OK**
   + In case you need to pass input data => Click "Create argument"
     - Enter the name of argument
-    - Select direction from a dropdown list {In, out, in / out}
+    - Select direction from a dropdown list `{In, out, in / out}`
     - Select type from a dropdown list.
     - Enter value
 * **Script File (String)**\* – The path of the JavaScript file you want to inject. You can also insert the JavaScript code directly here.  
-  E.g: "D:\Users\Downloads\invokeCode\invokeCode\alert.js" or "function clickButton(){document.querySelector('#loginButton').click();}"
+  E.g: `"D:\Users\Downloads\invokeCode\invokeCode\alert.js"` or `"function clickButton(){document.querySelector('#loginButton').click();}"`
 
 **Misc**
 

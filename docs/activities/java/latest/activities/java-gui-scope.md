@@ -28,7 +28,7 @@ This activity allows you to initialize a Java library and provide a scope for al
 
 Text
 
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
