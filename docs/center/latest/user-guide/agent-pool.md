@@ -1,8 +1,8 @@
 ---
 id: agent-pool
-title: How to use Center's Agent Pool
-sidebar_label: How to use Center's Agent Pool
-sidebar_position: 5
+title: Agent Pool
+sidebar_label: Agent Pool
+sidebar_position: 2
 displayed_sidebar: centerSidebar
 ---
 

@@ -1,4 +1,6 @@
-﻿{
-    "key":  "data-table-activities",
-    "label":  "Activities"
+{
+  "label": "Data Table",
+  "position": 21,
+  "collapsible": true,
+  "collapsed": true
 }

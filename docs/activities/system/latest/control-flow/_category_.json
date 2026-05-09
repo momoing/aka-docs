@@ -1,4 +1,6 @@
 ﻿{
-    "key":  "control-flow",
-    "label":  "Control Flow"
+  "label": "Control Flow",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true
 }

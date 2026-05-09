@@ -1,6 +1,6 @@
-﻿{
-  "label": "Runtime",
-  "position": 9,
+{
+  "label": "Log",
+  "position": 8,
   "collapsible": true,
   "collapsed": true
 }

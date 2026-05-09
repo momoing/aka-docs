@@ -1,14 +1,14 @@
 ---
-id: windows
-title: "Common Windows"
-sidebar_label: "Common Windows"
+id: introduction
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Common Windows activity documentation."
+description: "Introduction to Common activity package."
 displayed_sidebar: activitiesSidebar
 ---
-# Common Windows
+# Introduction
 
-The Common Window Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:
+The Common Activities package contains all the activities used for creating automation projects. These activities enable the robots to:
 
 * Perform browser interaction and window manipulation.
 * Simulate human interaction, such as performing mouse and keyboard commands or typing and extracting text.

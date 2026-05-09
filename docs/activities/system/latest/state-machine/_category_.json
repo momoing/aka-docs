@@ -1,4 +1,6 @@
 ﻿{
-    "key":  "state-machine",
-    "label":  "State Machine"
+  "label": "State Machine",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true
 }

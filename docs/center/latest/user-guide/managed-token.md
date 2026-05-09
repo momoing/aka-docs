@@ -1,8 +1,8 @@
 ---
 id: managed-token
-title: How to use Center's Managed Token
-sidebar_label: How to use Center's Managed Token
-sidebar_position: 4
+title: Managed Token
+sidebar_label: Managed Token
+sidebar_position: 3
 displayed_sidebar: centerSidebar
 ---
 

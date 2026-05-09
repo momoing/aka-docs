@@ -1,7 +1,7 @@
 ---
-id: getting-started-with-akabot-center
+id: getting-started
 title: Getting Started with akaBot Center
-sidebar_label: Getting Started with akaBot Center
+sidebar_label: Getting Started
 sidebar_position: 1
 displayed_sidebar: centerSidebar
 ---

@@ -1,6 +1,6 @@
-﻿{
-  "label": "Runtime",
-  "position": 9,
+{
+  "label": "Windows",
+  "position": 4,
   "collapsible": true,
   "collapsed": true
 }

@@ -1,6 +1,6 @@
-﻿{
-  "label": "Runtime",
-  "position": 9,
+{
+  "label": "Debug",
+  "position": 4,
   "collapsible": true,
   "collapsed": true
 }

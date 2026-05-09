@@ -1,7 +1,7 @@
 ---
-id: about-akabot-center
-title: About akaBot Center
-sidebar_label: About akaBot Center
+id: about
+title: About
+sidebar_label: About
 sidebar_position: 1
 displayed_sidebar: centerSidebar
 ---

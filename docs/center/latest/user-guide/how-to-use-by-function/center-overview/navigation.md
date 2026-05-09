@@ -1,7 +1,7 @@
 ---
-id: akabot-center-navigation
+id: navigation
 title: akaBot Center Navigation
-sidebar_label: akaBot Center Navigation
+sidebar_label: Navigation
 sidebar_position: 3
 displayed_sidebar: centerSidebar
 ---

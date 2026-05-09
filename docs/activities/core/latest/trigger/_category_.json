@@ -1,6 +1,6 @@
-﻿{
-  "label": "Runtime",
-  "position": 9,
+{
+  "label": "Trigger",
+  "position": 18,
   "collapsible": true,
   "collapsed": true
 }

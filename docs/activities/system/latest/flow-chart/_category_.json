@@ -1,4 +1,6 @@
-﻿{
-    "key":  "flow-chart",
-    "label":  "Flow Chart"
+{
+  "label": "Flowchart",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true
 }

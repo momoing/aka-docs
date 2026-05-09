@@ -1,6 +1,6 @@
-﻿{
-  "label": "Runtime",
-  "position": 9,
+{
+  "label": "HTTP",
+  "position": 16,
   "collapsible": true,
   "collapsed": true
 }
