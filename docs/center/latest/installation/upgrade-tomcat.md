@@ -39,7 +39,7 @@ Example: D:\backup\Tomcat 10.1
 
 - Download Tomcat 10.1.54 (latest version 10.1.54) from the following link
 
-<https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.54/bin/apache-tomcat-10.1.54.exe>
+[https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.54/bin/apache-tomcat-10.1.54.exe](https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.54/bin/apache-tomcat-10.1.54.exe)
 
 - Install Tomcat 10.1.54, selecting the options as shown below:
 

@@ -55,4 +55,4 @@ Content
 
     |  |
     | --- |
-    | var options = new RestClientOptions("http://your.center-domain.com")  {    MaxTimeout = -1,  };  var client = new RestClient(options);  var request = new RestRequest("/api/robots", Method.Get);  request.AddHeader("Accept", "\*/\*");  request.AddHeader("Authorization", "Bearer <insert-managed-token-here>");  RestResponse response = await client.ExecuteAsync(request);  Console.WriteLine(response.Content); |
+    | var options = new RestClientOptions("http://your.center-domain.com")  \{    MaxTimeout = -1,  \};  var client = new RestClient(options);  var request = new RestRequest("/api/robots", Method.Get);  request.AddHeader("Accept", "\*/\*");  request.AddHeader("Authorization", "Bearer \<insert-managed-token-here\>");  RestResponse response = await client.ExecuteAsync(request);  Console.WriteLine(response.Content); |

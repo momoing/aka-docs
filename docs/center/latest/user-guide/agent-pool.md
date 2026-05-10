@@ -110,7 +110,7 @@ Content
     The workflow must:
 
     * Define an input argument named **inputData** of type **String**.
-    * Use the **Deserialize Json<T>** activity to convert the input string into a JSON object for further processing.
+    * Use the **Deserialize Json\<T>** activity to convert the input string into a JSON object for further processing.
 
     ![1771820619342-196.png](/img/f47122_1771820619342-196.png)
 

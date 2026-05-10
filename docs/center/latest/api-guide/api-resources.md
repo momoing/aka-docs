@@ -938,7 +938,7 @@ ReturnType: Bool
 
 Example:
 
-Make a POST request to the <http://botcenter.akabot.io/api/studioservice/SetAsset> URL
+Make a POST request to the [http://botcenter.akabot.io/api/studioservice/SetAsset](http://botcenter.akabot.io/api/studioservice/SetAsset) URL
 
 ![image-20230307144502-110.png](/img/278012_image-20230307144502-110.png)
 
