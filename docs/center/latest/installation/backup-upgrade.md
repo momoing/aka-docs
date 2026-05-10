@@ -6,7 +6,6 @@ sidebar_position: 18
 description: "Backup and Upgrade documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Backup and Upgrade
 
 As a general rule, we advise you to have the same Agent, Studio, and Center to take advantage of all the latest features. Studio and Agent must have the same version. This document aims to give you step-by-step instructions on how to update & backup akaBot Studio, Agent & Center.
@@ -17,10 +16,7 @@ As a general rule, we advise you to have the same Agent, Studio, and Center to t
 
 **Custom HTML / CSS** (JavaScript will be stripped, CSS will be scoped)
 
-<div>  
-  <p>  
-Remove the previous version <a href="https://docs.akabot.com/docs/uninstall-akabot" target="" title=""><strong>Uninstall akaBot</strong></a>.</p>  
-</div>
+Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/uninstall-akabot).
 
 * **Step 2:**Download the latest version of akaBot Platform from the link provided in Licensing email Run the installer and wait until the process is finished.
 
@@ -31,12 +27,7 @@ Remove the previous version <a href="https://docs.akabot.com/docs/uninstall-akab
 * **Step 1:** Download the latest version of akaBot Center from the link provided in Licensing email.
 * **Step 2:**
 
-**Custom HTML / CSS** *JavaScript will be stripped, CSS will be scoped*
-
-<div>  
-   <p>  
-Kindly follow all the steps to update <a href="https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration" target="" title=""><strong> akaBot Center</strong></a>.</p>  
-</div>
+Kindly follow all the steps to update [**akaBot Center**](https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration).
 
 Make sure you create a backup that contains 2 files from old version : **application-dev.yml** and **application-prod.yml** so you don't have to re-edit
 

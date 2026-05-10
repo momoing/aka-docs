@@ -6,28 +6,27 @@ sidebar_position: 1
 description: "Hardware & Software Requirements documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Hardware & Software Requirements
 
 ## **akaBot Center**
 
 | Number of Agents | CPU Cores (min 2 GHz) | RAM (GB) | Storage (GB) |
 | --- | --- | --- | --- |
-| <20 | 8 | 16 | 400 |
-| <50 | 8 | 16 | 500 |
-| <100 | 8 | 16 | 600 |
-| <200 | 8 | 16 | 700 |
-| <250 | 8 | 16 | 800 |
+| \<20 | 8 | 16 | 400 |
+| \<50 | 8 | 16 | 500 |
+| \<100 | 8 | 16 | 600 |
+| \<200 | 8 | 16 | 700 |
+| \<250 | 8 | 16 | 800 |
 
 ## **Hardware requirement for Database (High Availability)**
 
 | Number of Agents | CPU Cores (min 2 GHz) | RAM (GB) | Storage (GB) |
 | --- | --- | --- | --- |
-| <20 | 4 | 8 | 100 |
-| <50 | 4 | 8 | 200 |
-| <100 | 8 | 8 | 300 |
-| <200 | 8 | 8 | SSD 400 |
-| <250 | 8 | 16 | SSD 400 |
+| \<20 | 4 | 8 | 100 |
+| \<50 | 4 | 8 | 200 |
+| \<100 | 8 | 8 | 300 |
+| \<200 | 8 | 8 | SSD 400 |
+| \<250 | 8 | 16 | SSD 400 |
 
 ## **Software Requirements**
 

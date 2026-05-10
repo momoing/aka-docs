@@ -6,7 +6,6 @@ sidebar_position: 10
 description: "Installation Guide For High Availability Model on Redhat v9.x documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Installation Guide For High Availability Model on Redhat v9.x
 
 
@@ -275,8 +274,8 @@ ACTIVEMQ_OPTS_MEMORY="-Xms1G -Xmx2G"
 ```
 
 **Note:**
-- Parameter `-Xms`: minimum Java heap size. Please set the number <= ¼ RAM capacity. (Ex: RAM = 4G, set -Xms1G).
-- Parameter `-Xmx`: maximum Java heap size. Please set the number <= ½ RAM capacity. (Ex: RAM = 4G, set -Xmx2G).
+- Parameter `-Xms`: minimum Java heap size. Please set the number \<= ¼ RAM capacity. (Ex: RAM = 4G, set -Xms1G).
+- Parameter `-Xmx`: maximum Java heap size. Please set the number \<= ½ RAM capacity. (Ex: RAM = 4G, set -Xmx2G).
 
 ![image-20230804101914-7](/img/xmx.png)
 
@@ -696,11 +695,11 @@ Environment=JAVA_HOME=/usr/lib/jvm/openlogic-openjdk-11-hotspot
 
 Environment='CATALINA_OPTS=-Xms1G -Xmx2G -server -XX:+UseParallelGC'
 
-* Parameter -Xms: minimum Java heap size. Please set the number <= ¼ RAM capacity.
+* Parameter -Xms: minimum Java heap size. Please set the number \<= ¼ RAM capacity.
       
     Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms1G.
 
-* Parameter -Xmx: maximum Java heap size. Please set the number <= ½ RAM capacity.
+* Parameter -Xmx: maximum Java heap size. Please set the number \<= ½ RAM capacity.
            
     Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms2G.
 
@@ -921,9 +920,9 @@ brokerURL: failover:(tcp://<IP-ACTIVEMQ-01>:61616,tcp://<IP-ACTIVEMQ-02>:61616)?
 
 in which:
 
-+ <IP-ACTIVEMQ-01>: the IP address of ActiveMQ server 01
++ \<IP-ACTIVEMQ-01\>: the IP address of ActiveMQ server 01
 
-+ <IP-ACTIVEMQ-02>: the IP address of ActiveMQ server 02
++ \<IP-ACTIVEMQ-02\>: the IP address of ActiveMQ server 02
 ![image-20230804101914-28](/img/mq.png)
 
 3. Save changes and exit.
@@ -981,7 +980,7 @@ elasticsearch:
   password:
   index-max-result-window: 20000000
 ```
-  In which: <IP_ES> is the IP address of ElasticSearch server.
+  In which: \<IP_ES\> is the IP address of ElasticSearch server.
 
 3. Save changes and exit
 

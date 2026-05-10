@@ -6,7 +6,6 @@ sidebar_position: 7
 description: "Install Akabot Center 4x and PostgreSQL on Microsoft Windows documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Install Akabot Center 4X and PostgreSQL on Microsoft Windows
 
 > This guide provides instructions to installing a single instance of **akaBot Center version 4.x** with **MSSQL** as the database engine. The target Operating System (OS) in this guideline is **Microsoft Windows**.
@@ -61,7 +60,7 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 ### **3.1. Install PostgreSQL**
 
-Download link:<https://www.enterprisedb.com/downloads/postgres-postgresql-downloads>
+Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 **Step 1:** Open file
 
@@ -202,13 +201,13 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 a. Adjust the Java Heap configuration:
 
-* Initial memory pool: **Enter a value <= 1/4of the server's RAM.**
+* Initial memory pool: **Enter a value \<= 1/4of the server's RAM.**
 
-Example: Server RAM = 32 GB -> Initial memory pool should be <= 1/4 \* 16 \* 1024 MB
+Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 1024 MB
 
-* Maximum memory pool: **Enter a value <=  of the server's RAM.**
+* Maximum memory pool: **Enter a value \<=  of the server's RAM.**
 
-Example: Server RAM = 32 GB -> Maximum memory pool should be <=  \* 16 \* 1024 MB
+Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
@@ -375,7 +374,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 4. Save changes and close file
 
-5. **Start the Apache Tomcat** service and access **<http://localhost:8080/>** to verify the installation of akaBot Center.
+5. **Start the Apache Tomcat** service and access **[http://localhost:8080/](http://localhost:8080/)** to verify the installation of akaBot Center.
 
 ![1773045819506-903.png](/img/8b4b2a_1773045819506-903.png)
 

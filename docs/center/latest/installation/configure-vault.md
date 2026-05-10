@@ -6,7 +6,6 @@ sidebar_position: 16
 description: "Configure akaBot Center to use Vault documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Configure akaBot Center to use Vault
 
 # **1. Prerequisites**
@@ -25,7 +24,7 @@ Follow the guideline in this link to install akaBot Center**[Instruction](https:
 
 **3.1. Install HashiCorp Vault**
 
-**Step 1:** Download Vault 1.8.8 from**<https://releases.hashicorp.com/vault/1.8.8/>**
+**Step 1:** Download Vault 1.8.8 from **[https://releases.hashicorp.com/vault/1.8.8/](https://releases.hashicorp.com/vault/1.8.8/)**
 
 **Step 2:** Extract the package to **C:\vault\**
 
@@ -39,9 +38,11 @@ vault  version
 
 **Step 5:** Create configuration file **C:\vault\config.hcl** with content below:
 
-storage "file" { path = "C:/vault/data" }   
-listener "tcp" { address = "127.0.0.1:8200" tls\_disable = 1 }   
+```hcl
+storage "file" { path = "C:/vault/data" }
+listener "tcp" { address = "127.0.0.1:8200" tls_disable = 1 }
 ui = true
+```
 
 **Step 6:** Start Vault server:
 
@@ -99,8 +100,8 @@ vault:
   enabled: true   
   url: http://127.0.0.1:8200   
   app-role:   
-    role-id: <role-id>   
-    secret-id: <secret-id>   
+    role-id: \<role-id\>   
+    secret-id: \<secret-id\>   
   credential:   
     user-mapping: Username   
     pass-mapping: Password   

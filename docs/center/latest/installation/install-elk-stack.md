@@ -6,7 +6,6 @@ sidebar_position: 12
 description: "Install ELK Stack for akaBot Center documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Install ELK Stack for akaBot Center
 
 # **1. Install**
@@ -15,7 +14,7 @@ displayed_sidebar: centerSidebar
 
 The first step in this process is getting the server prepared for the Elastic services by installing Java and setting up an environmental variable so Elasticsearch can locate Java
 
-Download and Install Java (<https://www.java.com/en/>)
+Download and Install Java ([https://www.java.com/en/](https://www.java.com/en/))
 
 Take note of the installation path during the install, you ll need to know that for the next step. It should be something like C:\Program Files\Java\jre1.8\_xxx:
 
@@ -33,7 +32,7 @@ Open  System Properties  ->  Environment Variables  and create a new  System var
 
 Elasticsearch is the core of the ELK stack and is where all of the data will be stored.
 
-- Download package (<https://www.elastic.co/downloads/elasticsearch>) - version 7.9.3
+- Download package ([https://www.elastic.co/downloads/elasticsearch](https://www.elastic.co/downloads/elasticsearch)) - version 7.9.3
 
 ![1776051583607-548.png](/img/8fe54a_1776051583607-548.png)
 
@@ -49,7 +48,7 @@ Elasticsearch is the core of the ELK stack and is where all of the data will be 
 
 ![1776052277687-801.png](/img/5a5435_1776052277687-801.png)
 
-- Running browse to <http://localhost:9200>
+- Running browse to [http://localhost:9200](http://localhost:9200)
 
 ![1776052395005-832.png](/img/5c8496_1776052395005-832.png)
 
@@ -69,46 +68,47 @@ Logstash is responsible for receiving the data from the remote clients and then 
 
 - Next is create the configuration file(logstash.conf), which needs saved to the Logstash\config directory
 
+```
 input {
 
-beats {
+  beats {
 
-port => 5044
+    port => 5044
 
-type => "log"
+    type => "log"
 
-}
+  }
 
 }
 
 filter {
 
-json {
+  json {
 
-source => "message"
+    source => "message"
 
-target => "doc"
+    target => "doc"
 
-}
+  }
 
 }
 
 output {
 
-elasticsearch {
+  elasticsearch {
 
-hosts => "localhost:9200"
+    hosts => "localhost:9200"
 
-manage\_template => false
+    manage_template => false
 
-index => "%{[@metadata][beat]}-%{+yyyy.ww}"
+    index => "%{[@metadata][beat]}-%{+yyyy.ww}"
 
-document\_type => "%{[@metadata][type]}"
+    document_type => "%{[@metadata][type]}"
+
+  }
 
 }
-
-}
-
+```
 There is also a sample configuration file in the config directory named  logstash-sample.conf  that you can refer to
 
 - NSSM is going to be used to create the service for Logstash. You can download NSSM (Non-Sucking Service Manager) here
@@ -152,7 +152,7 @@ Kibana is the web based front end that will be used to search the data stored in
 
 - Download the Kibana package for Windows in .zip format
 
-(<https://www.elastic.co/downloads/kibana>)   version 7.9.3
+([https://www.elastic.co/downloads/kibana](https://www.elastic.co/downloads/kibana))   version 7.9.3
 
 ![1776053215456-145.png](/img/d766ab_1776053215456-145.png)
 
@@ -196,7 +196,7 @@ Change server.port (recommend port 5601) and open port (5601)
 
 Open services.msc and verify the service starts: Elasticsearch, Logstash, Kibana.
 
-- Verify Kibana is accessible: <http://localhost:5601>
+- Verify Kibana is accessible: [http://localhost:5601](http://localhost:5601)
 
 ![1776053596498-662.png](/img/9afc4d_1776053596498-662.png)
 
@@ -206,7 +206,7 @@ Filebeat is used for collecting and shipping log files to logstash.
 
 - Download the Filebeat package for Windows in .zip format
 
-(<https://www.elastic.co/fr/downloads/beats/filebeat>)   version 7.9.3
+([https://www.elastic.co/fr/downloads/beats/filebeat](https://www.elastic.co/fr/downloads/beats/filebeat))   version 7.9.3
 
 ![1776053705946-185.png](/img/8f84fa_1776053705946-185.png)
 

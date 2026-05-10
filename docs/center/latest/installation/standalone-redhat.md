@@ -6,7 +6,6 @@ sidebar_position: 8
 description: "Installation Guide for Standalone Model on Redhat v9.x documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Installation Guide for Standalone Model on Redhat v9.x
 
 # 1. Before you start
@@ -236,11 +235,11 @@ Environment=JAVA\_HOME=%JAVA\_HOME%
 
 *Environment='CATALINA\_OPTS=-Xms1G -Xmx2G -server -XX:+UseParallelGC'*
 
-* **Parameter -Xms:** minimum Java heap size. Please set the number <= ¼ RAM capacity.
+* **Parameter -Xms:** minimum Java heap size. Please set the number \<= ¼ RAM capacity.
 
             Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms1G.
 
-* **Parameter -Xmx:** maximum Java heap size. Please set the number <= ½ RAM capacity.
+* **Parameter -Xmx:** maximum Java heap size. Please set the number \<= ½ RAM capacity.
 
            Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms2G.
 
@@ -414,11 +413,11 @@ sudo systemctl stop activemq
 
            Note:
 
-* + **Parameter -Xms:** minimum Java heap size. Please set the number <= ¼ RAM capacity.
+* + **Parameter -Xms:** minimum Java heap size. Please set the number \<= ¼ RAM capacity.
 
                        Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms1G.
 
-* + **Parameter -Xmx:** maximum Java heap size. Please set the number <= ½ RAM capacity.
+* + **Parameter -Xmx:** maximum Java heap size. Please set the number \<= ½ RAM capacity.
 
                        Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms2G.
 
@@ -500,19 +499,19 @@ sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/logback-spring.xml
 
 2. Update the line:
 
-${application.home:-.}/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log
+`${application.home:-.}/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log`
 
 To:
 
-/opt/tomcat/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log
+`/opt/tomcat/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log`
 
 3. Update the line
 
-${application.home:-.}/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
+`${application.home:-.}/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log`
 
 To:
 
-/opt/tomcat/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
+`/opt/tomcat/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log`
 
 4. Change log level if needed. Ex: ERROR
 
@@ -547,13 +546,13 @@ sudo vi application-prod.yml
 
                    + If you use service’s SID, then JDBC URL format should be:
 
-*url: jdbc:oracle:thin:@<DB-SERVER>:<DB-PORT>:<DB-SID>*
+`url: jdbc:oracle:thin:@<DB-SERVER>:<DB-PORT>:<DB-SID>`
 
 ![image-20230728180918-16.png](/img/31840d_image-20230728180918-16.png)
 
                   + If you use service’s name, then JDBC URL format should be:
 
-*url: jdbc:oracle:thin:@//<HOST>:<PORT>/<SERVICE NAME>*
+`url: jdbc:oracle:thin:@//<HOST>:<PORT>/<SERVICE NAME>`
 
 ![image-20230728180918-17.png](/img/bb5292_image-20230728180918-17.png)
 

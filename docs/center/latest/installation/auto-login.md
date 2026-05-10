@@ -6,7 +6,6 @@ sidebar_position: 17
 description: "Auto-Login Setup & Troubleshooting documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Auto-Login Setup & Troubleshooting
 
 ## **Introduction**
@@ -68,10 +67,10 @@ Note: After changing Windows Policy, you should run this command with **adminis
 | Registry key | Type | Name | Value |
 | --- | --- | --- | --- |
 | HKEY\_LOCAL\_MACHINE\SOFTWARE\FPT Software\akaBot Platform | ServicePipeName  CredentialProviderFilters  MaxClients | REG\_SZ  REG\_SZ  REG\_DWORD | akaBotCredPipe  (any)  0x00000019 |
-| HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ Windows\CurrentVersion\Authentication\ Credential Providers{4f22cdbe-4949-4567-9941-1aaa46c6b7bd} | (Default) | REG\_SZ | akaBotCredentialProvider |
-| HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ Windows\CurrentVersion\Authentication\ Credential Provider Filters{4f22cdbe-4949-4567-9941-1aaa46c6b7bd} | (Default) | REG\_SZ | akaBotCredentialProvider |
-| HKEY\_CLASSES\_ROOT\CLSID{4f22cdbe-4949-4567-9941-1aaa46c6b7bd} | (Default) | REG\_SZ | akaBotCredentialProvider |
-| HKEY\_CLASSES\_ROOT\CLSID{4f22cdbe-4949-4567-9941-1aaa46c6b7bd}\InprocServer32 | (Default)  ThreadingModel | REG\_SZ  REG\_SZ | akaBotCredentialProvider  Apartment |
+| HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ Windows\CurrentVersion\Authentication\ Credential Providers\{4f22cdbe-4949-4567-9941-1aaa46c6b7bd\} | (Default) | REG\_SZ | akaBotCredentialProvider |
+| HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ Windows\CurrentVersion\Authentication\ Credential Provider Filters\{4f22cdbe-4949-4567-9941-1aaa46c6b7bd\} | (Default) | REG\_SZ | akaBotCredentialProvider |
+| HKEY\_CLASSES\_ROOT\CLSID\{4f22cdbe-4949-4567-9941-1aaa46c6b7bd\} | (Default) | REG\_SZ | akaBotCredentialProvider |
+| HKEY\_CLASSES\_ROOT\CLSID\{4f22cdbe-4949-4567-9941-1aaa46c6b7bd\}\InprocServer32 | (Default)  ThreadingModel | REG\_SZ  REG\_SZ | akaBotCredentialProvider  Apartment |
 | HKEY\_LOCAL\_MACHINE \SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services | fPromptForPassword | REG\_DWORD | 0 (or not exist) |
 
 **Files**
@@ -114,7 +113,7 @@ If the screen displays a Legal disclaimer, it requires the user to press OK to e
 
 * For this configuration, it can be used: **the physical one** and **"virtual machine"**.
 * When there's a request to run a task from the Center, Agent will use the RDP client to initiate a new session to serve that user.
-* If the screen displays alerts,... which required to press OK button to enter the login screen, kindly type in **Others** section => ***/kb:{Enter}.***
+* If the screen displays alerts,... which required to press OK button to enter the login screen, kindly type in **Others** section => ***/kb:\{Enter\}.***
 * If it takes longer than usual to initiate a remote session on the agent machine, please configure the timeout (second) => ***/unlock-timeout-sec:45*** . Default : 30s
 * If the unlock fails occasionally, please increase the number of retries to reduce the error rate => ***/unlock-retries:3.*** Default : 2 (times)
 
@@ -182,7 +181,7 @@ Notes:
 ![:white-check-mark:](/img/919366_white-check-mark.png) **Solution**: Please follow these steps:
 
 **Step 1** - Switch to RDP mode  
-**Step 2** - Add parameter to **Center** > **Agent**> **Agent Settings** > **Others**: */kb:{Enter}*
+**Step 2** - Add parameter to **Center** > **Agent**> **Agent Settings** > **Others**: */kb:\{Enter\}*
 
 ![image-20220506133914-16.png](/img/bea064_image-20220506133914-16.png)
 

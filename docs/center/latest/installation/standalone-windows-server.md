@@ -6,7 +6,6 @@ sidebar_position: 9
 description: "Installation guide for standalone model on Windows Server (Network Edition) documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Installation Guide for Standalone Model on Windows Server (Network Edition)
 
 ## **1. Prerequisites**
@@ -355,13 +354,13 @@ Step 4: On the **Java**tab
 
 a. Adjust the Java Heap configuration:
 
-* Initial memory pool: Enter a value <= 1/4 of the server's RAM.
+* Initial memory pool: Enter a value \<= 1/4 of the server's RAM.
 
-Example: Server RAM = 32 GB -> Initial memory pool should be <= 1/4 \* 16 \* 1024  MB
+Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 1024  MB
 
-* Maximum memory pool: Enter a value <= ½ of the server's RAM.
+* Maximum memory pool: Enter a value \<= ½ of the server's RAM.
 
-Example: Server RAM = 32 GB -> Maximum memory pool should be <= ½ \* 16 \* 1024  MB
+Example: Server RAM = 32 GB -> Maximum memory pool should be \<= ½ \* 16 \* 1024  MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
@@ -515,7 +514,7 @@ Check the Running status of the ActiveMQ service.
 
 ![1698831705683-754.png](/img/f469d3_1698831705683-754.png)
 
-Access the URL <http://localhost:9200/> to verify the successful installation of Elasticsearch.
+Access the URL [http://localhost:9200/](http://localhost:9200/) to verify the successful installation of Elasticsearch.
 
 ![1698831739225-456.png](/img/8f0d4a_1698831739225-456.png)
 
@@ -600,7 +599,7 @@ Step 2: Modify the configuration in the file %TOMCAT\_PATH%/webapps/ROOT/WEB-INF
 
 4. Save changes and close file
 
-5. Start the Apache Tomcat service and access <http://localhost:8080/> to verify the installation of akaBot Center.
+5. Start the Apache Tomcat service and access [http://localhost:8080/](http://localhost:8080/) to verify the installation of akaBot Center.
 
 ![1698832285390-704.png](/img/1c2800_1698832285390-704.png)
 
@@ -697,7 +696,7 @@ Open the Command Prompt with "Run as administrator" and run the file %AKABOT\_CC
 **Step 2**: Configure the file %TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/application.yml:
 
 * process-builder.enabled: true
-* process-builder.conductor.url: <http://localhost:3393/api>
+* process-builder.conductor.url: [http://localhost:3393/api](http://localhost:3393/api)
 
 ![1698833069564-201.png](/img/bc5e5d_1698833069564-201.png)
 
@@ -709,7 +708,7 @@ Open the Command Prompt with "Run as administrator" and run the file %AKABOT\_CC
 
 ![1698833088172-677.png](/img/cd64be_1698833088172-677.png)
 
-**Step 4**: Start the Apache Tomcat service again and access <http://localhost:8080/> to verify the akaBot Center installation.
+**Step 4**: Start the Apache Tomcat service again and access [http://localhost:8080/](http://localhost:8080/) to verify the akaBot Center installation.
 
 ![1698833120163-411.png](/img/c32b9f_1698833120163-411.png)
 
