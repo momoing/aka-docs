@@ -143,11 +143,3 @@ To delete, you need to click the **Delete** button.
 Alternatively, you can select the checkbox before each Agent and the Delete button will show up next to the Create Newr button. Tick the Checkbox next to Action will allow users to select all displayed Agent for bulk delete.
 
 ![image-20221031160701-15.png](/img/f5ef98_image-20221031160701-15.png)
-
-Table of Content
-
-* [a. View an Agent](#Ha.ViewanAgent)
-* [b. View an Agent's tasks](#Hb.ViewanAgent27stasks)
-* [c. View an Agent's log](#Hc.ViewanAgent27slog)
-* [d. Create/Update an Agent](#Hd.Create2FUpdateanAgent)
-* [e. Delete an Agent](#He.DeleteanAgent)

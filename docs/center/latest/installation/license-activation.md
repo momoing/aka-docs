@@ -43,15 +43,7 @@ You have completed all the steps to activate akaBot Center.
 If you have **your own** **akaBot Center,** please make sure that your akaBot Studio computer has an active connection to your akaBot Center.  
 If your network requires you to connect to the Internet or akaBot Center through a Proxy server, make sure​​​ that you have Proxy information before activation.
 
-Table of Content
-
-* [1. Activate akaBot Center](#H1.ActivateakaBotCenter)
-* [2.  Activate akaBot Studio](#H2.A0ActivateakaBotStudio)
-* [3.  Activate akaBot Agent](#H3.A0ActivateakaBotAgent)
-  + [3.1. Activate akaBot Agent](#H3.1.ActivateakaBotAgent)
-  + [3.2. Connect akaBot Agent with akaBot Center](#H3.2.ConnectakaBotAgentwithakaBotCenter)
-
- After activating your akaBot Center, please follow the steps below to activate your akaBot Studio.
+After activating your akaBot Center, please follow the steps below to activate your akaBot Studio.
 
 **Step 1** - Start the Studio. In installing windows, choose option “akaBot Center” then hit button “Next”.
 

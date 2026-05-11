@@ -59,8 +59,3 @@ To delete an agent group, you should click the Delete button of the agent group 
 ![image-20221031162101-21.png](/img/c06301_image-20221031162101-21.png)
 
 Alternatively, you can hit the checkbox before each Agent and the Delete option will appear next to the Filter option at the top. Click the Checkbox next to Action will allow you to select all Agents for deletion.
-
-Table of Content
-
-* [a. Create/Edit an Agent Group](#Ha.Create2FEditanAgentGroup)
-* [b. Remove Agent Group](#Hb.RemoveAgentGroup)

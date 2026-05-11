@@ -44,7 +44,3 @@ There are 3 sending options:
 **Webhook**: Send the output to the Webhook address
 
 ![image-20221101104633-2.png](/img/b0d4b5_image-20221101104633-2.png)
-
-Table of Content
-
-* [a. Create an Agent Pool](#Ha.CreateanAgentPool)

@@ -8,7 +8,7 @@ displayed_sidebar: centerSidebar
 ---
 # Enumerated types
 
-## **1.  RobotType**
+## **1.  RobotType**
 
 |  |  |
 | --- | --- |
@@ -18,7 +18,7 @@ displayed_sidebar: centerSidebar
 | STAGING | 2 |
 | PRODUCTION | 3 |
 
-## **2. RobotState**
+## **2. RobotState**
 
 |  |  |
 | --- | --- |
@@ -28,7 +28,7 @@ displayed_sidebar: centerSidebar
 | DISCONNECTED | 2 |
 | UNRESPONSIVE | 3 |
 
-## **3. JobState**
+## **3. JobState**
 
 |  |  |
 | --- | --- |
@@ -41,7 +41,7 @@ displayed_sidebar: centerSidebar
 | SUCCESSFUL | 5 |
 | STOPPED | 6 |
 
-## **4. JobCommand**
+## **4. JobCommand**
 
 |  |  |
 | --- | --- |
@@ -51,7 +51,7 @@ displayed_sidebar: centerSidebar
 | STOP | 2 |
 | NONE | 3 |
 
-## **5. JobSource**
+## **5. JobSource**
 
 |  |  |
 | --- | --- |
@@ -61,7 +61,7 @@ displayed_sidebar: centerSidebar
 | AGENT | 2 |
 | TRIGGER | 3 |
 
-## **6. EnvironmentType**
+## **6. EnvironmentType**
 
 |  |  |
 | --- | --- |
@@ -70,7 +70,7 @@ displayed_sidebar: centerSidebar
 | TEST | 1 |
 | PROD | 2 |
 
-## **7. AssetType**
+## **7. AssetType**
 
 |  |  |
 | --- | --- |
@@ -80,7 +80,7 @@ displayed_sidebar: centerSidebar
 | INTEGER | 2 |
 | CREDENTIAL | 3 |
 
-## **8. ArgumentType**
+## **8. ArgumentType**
 
 |  |  |
 | --- | --- |
@@ -88,14 +88,3 @@ displayed_sidebar: centerSidebar
 | STRING | 0 |
 | BOOL | 1 |
 | INTEGER | 2 |
-
-Table of Content
-
-* [1.  RobotType](#H1.A0RobotType)
-* [2. RobotState](#H2.A0RobotState)
-* [3. JobState](#H3.A0JobState)
-* [4. JobCommand](#H4.A0JobCommand)
-* [5. JobSource](#H5.A0JobSource)
-* [6. EnvironmentType](#H6.A0EnvironmentType)
-* [7. AssetType](#H7.A0AssetType)
-* [8. ArgumentType](#H8.A0ArgumentType)

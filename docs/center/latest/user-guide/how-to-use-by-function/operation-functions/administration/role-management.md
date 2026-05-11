@@ -90,8 +90,3 @@ To delete a role, you click the Delete button of the corresponding role.
 ![image-20221101164723-19.png](/img/f253ab_image-20221101164723-19.png)
 
 A confirming pop-up will display. Hit Delete to complete the operation.
-
-Table of Content
-
-* [a. Create/Edit a Role](#Ha.Create2FEditaRole)
-* [b. Delete a role](#Hb.Deletearole)

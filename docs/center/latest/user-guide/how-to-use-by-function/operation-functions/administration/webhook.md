@@ -35,7 +35,3 @@ To create a webhook
 | 2 | Enabled | Tick this box if you want for this Webhook to work | Check Box |  | No |  |
 | 3 | Choose All Events / Choose Events | Allow you to choose between send all events to your application or only send selected Events. | SingleChoice |  | Yes |  |
 | 4 | Filter | Select the Events you want to forward to your application. You can choose multiple events from the list. | MultipleChoice |  | Yes | Only available if you select **Choose Events** option |
-
-Table of Content
-
-* [Create/Edit a Webhook](#HCreate2FEditaWebhook)

@@ -56,43 +56,6 @@ You need to prepare the installation package according to the following list.
 - If the computer where you're installing Center does not have an internet connection, please download the installation package externally and copy it to the machine.  
 - To avoid errors during installation with command line execution, please use a dedicated folder for akaBot Center installation and name the installation package directory without any spaces. For example: C:\akaBot
 
-Table of Content
-
-* [1. Prerequisites](#H1.Prerequisites)
-  + [1.1. Installation Model](#H1.1.A0InstallationModel)
-  + [1.2. Machine Configuration Requirements](#H1.2.MachineConfigurationRequirements)
-  + [1.3. Installation Privilege Requirements](#H1.3.A0InstallationPrivilegeRequirements)
-  + [1.4. MSSQL Database Connection Requirements](#H1.4.MSSQLDatabaseConnectionRequirements)
-  + [1.5. Prepare the Installation Package](#H1.5.PreparetheInstallationPackage)
-  + [1.6. Guide to Some key Operations](#H1.6.GuidetoSomekeyOperations)
-* [2. Java JDK 11 Installation](#H2.JavaJDK11Installation)
-* [3. MySQL installation](#H3.MySQLinstallation)
-  + [3.1. Install MySQL](#H3.1.InstallMySQL)
-  + [3.2. Setup MYSQL account to enable remote connection](#H3.2.A0SetupMYSQLaccounttoenableremoteconnection)
-  + [3.3.Create MySQL Database for CENTER](#H3.3.CreateMySQLDatabaseforCENTER)
-* [4. Apache Tomcat installation](#H4.ApacheTomcatinstallation)
-  + [4.1. Install Apache Tomcat](#H4.1.InstallApacheTomcat)
-  + [4.2. Apache Tomcat Configuration](#H4.2.ApacheTomcatConfiguration)
-  + [4.3. Check Apache Tomcat Installation](#H4.3.CheckApacheTomcatInstallation)
-* [5. ACTIVEMQ installation](#H5.ACTIVEMQinstallation)
-  + [5.1. Install ActiveMQ](#H5.1.InstallActiveMQ)
-  + [5.2. Java Heap Configuration](#H5.2.JavaHeapConfiguration)
-  + [5.3. Check ActiveMQ Installation](#H5.3.A0CheckActiveMQInstallation)
-* [6. ELASTICSEARCH installation](#H6.ELASTICSEARCHinstallation)
-  + [6.1. Install ElasticSearch](#H6.1.InstallElasticSearch)
-  + [6.2. ElasticSearch Configuration](#H6.2.ElasticSearchConfiguration)
-  + [6.3. Check ElasticSearch Installation](#H6.3.CheckElasticSearchInstallation)
-* [7. akaBot Center Installation](#H7.akaBotCenterInstallation)
-  + [7.1. Copy and extract war file](#H7.1.Copyandextractwarfile)
-  + [7.2. akaBot Center configuration](#H7.2.akaBotCenterconfiguration)
-* [8. Install akaBot Collaboration Center (Optional)](#H8.InstallakaBotCollaborationCenter28Optional29)
-  + [8.1. Install nssm](#H8.1.Installnssm)
-  + [8.2. Install akaBot Collaboration Center](#H8.2.InstallakaBotCollaborationCenter)
-  + [8.3. Check akaBot Collaboration Center Installation](#H8.3.CheckakaBotCollaborationCenterInstallation)
-  + [8.4. Configure Connection to akaBot Collaboration Center](#H8.4.ConfigureConnectiontoakaBotCollaborationCenter)
-* [9. Troubleshooting](#H9.Troubleshooting)
-  + [9.1. ActiveMQ](#H9.1.ActiveMQ)
-* [10. Backup for disaster recovery](#H10.Backupfordisasterrecovery)
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |

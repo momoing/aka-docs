@@ -81,9 +81,3 @@ To delete a User, you click the Delete button of the corresponding User.
 ![image-20221101163711-15.png](/img/c91ba3_image-20221101163711-15.png)
 
 A confirming pop-up will display. Hit **Delete** to complete the operation.
-
-Table of Content
-
-* [a. View a User](#Ha.A0ViewaUser)
-* [b. Create/Edit a User](#Hb.Create2FEditaUser)
-* [c. Delete a User](#Hc.DeleteaUser)

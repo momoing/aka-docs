@@ -436,21 +436,3 @@ S1: To stop a running Bot, in **Task**tab > click **Action**in Action column nex
 ![image-20230425155109-56.png](/img/0b6352_image-20230425155109-56.png)
 
 S2: The System will show a message to get your confirmation. Hit **Confirm** to remove the task. ![image-20230425155109-57.png](/img/2a65ce_image-20230425155109-57.png)
-
-Table of Content
-
-* [Use case 1: Create / Edit an OU](#HUsecase1:Create2FEditanOU)
-* [Use case 2: Remove an OU](#HUsecase2:RemoveanOU)
-* [Use case 3: Create/ edit a new Role](#HUsecase3:Create2FeditanewRole)
-* [Use case 4: Remove role](#HUsecase4:Removerole)
-* [Use case 5:  View/ Edit/ Create a new account](#HUsecase5:View2FEdit2FCreateanewaccount)
-* [Use case 6: Delete account](#HUsecase6:Deleteaccount)
-* [Use case 7: See overview of center in Homepage](#HUsecase7:SeeoverviewofcenterinHomepage)
-* [Use case 8: Create / Edit Agent Group](#HUsecase8:Create2FEditAgentGroup)
-* [Use case 9: Remove Agent Group](#HUsecase9:RemoveAgentGroup)
-* [Use case 10: Monitor Agent’s status](#HUsecase10:MonitorAgent2019sstatus)
-* [Use case 11: View/ Create / Edit Agent](#HUsecase11:View2FCreate2FEditAgent)
-* [Use case 12: Remove Agent](#HUsecase12:RemoveAgent)
-* [Use case 13: Change agent’s password](#HUsecase13:Changeagent2019spassword)
-* [Use case 14: Add/ Renew/ De-active license](#HUsecase14:Add2FRenew2FDe-activelicense)
-* [Use case 15: Run / Stop Bot](#HUsecase15:Run2FStopBot)

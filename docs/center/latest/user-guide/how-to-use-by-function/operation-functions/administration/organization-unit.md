@@ -74,9 +74,3 @@ If you want to unassign a user from an organization unit, open the Edit windows 
 ![image-20221101165636-25.png](/img/d1ec82_image-20221101165636-25.png)
 
 A confirmation pop-up will appear. Select Delete to finish the operation.
-
-Table of Content
-
-* [a. View an OU](#Ha.ViewanOU)
-* [b. Create/edit an OU](#Hb.Create2FeditanOU)
-* [c. Remove an OU](#Hc.RemoveanOU)
