@@ -3,13 +3,11 @@ id: analytics-usage
 title: Analytics Usage
 sidebar_label: Analytics Usage
 sidebar_position: 18
-description: Practical guide for non-technical users to use Analytics based on the current UI.
+description: Practical guide to use Analytics based on the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Analytics Usage
-
-This guide helps non-technical users use **Analytics** based on the current UI in `apps/ui`.
 
 ## What Analytics is for
 
@@ -77,7 +75,7 @@ Overview shows high-level cards and trend charts:
 - **New Conversations** (includes top channel)
 - **Tickets** (resolved + reopened/new)
 
-![Overview analytics tab](/static/img/overview.png)
+![Overview analytics tab](/img/overview.png)
 
 Below the cards, you will see 4 trend charts:
 
@@ -94,7 +92,7 @@ Charts available:
 - **Conversation Status Changed**
 - **Conversation Assigned**
 
-![Conversation analytics tab](/static/img/conversation.png)
+![Conversation analytics tab](/img/conversation.png)
 
 Each chart may include filter controls:
 
@@ -113,7 +111,7 @@ Charts available:
 - **Message Received**
 - **Message Sent**
 
-![Message analytics tab](/static/img/message.png)
+![Message analytics tab](/img/message.png)
 
 You can filter by dimensions such as:
 
@@ -130,7 +128,7 @@ Charts available:
 - **Ticket Assigned**
 - **Ticket Priority Changed**
 
-![Ticket analytics tab](/static/img/ticket.png)
+![Ticket analytics tab](/img/ticket.png)
 
 Common dimensions include:
 
@@ -146,7 +144,7 @@ Charts available:
 - **Contact Created**
 - **Contact Identity Linked**
 
-![Contact analytics tab](/static/img/contact.png)
+![Contact analytics tab](/img/contact.png)
 
 Common dimension:
 
@@ -159,7 +157,7 @@ Common dimension:
 - Hover on bars/lines to see exact values
 - Use **Dimension + Value** to answer specific questions (for example "How many tickets were reopened for one ticket type?")
 
-## Suggested workflow for non-technical users
+## Suggested workflow
 
 1. Start with **Overview** to detect unusual changes.
 2. Move to a detail tab (Conversation, Message, Ticket, Contact).

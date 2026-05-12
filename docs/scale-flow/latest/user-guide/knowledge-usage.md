@@ -3,13 +3,11 @@ id: knowledge-usage
 title: Knowledge Usage
 sidebar_label: Knowledge Usage
 sidebar_position: 15
-description: Practical guide for non-technical users to create, sync, test, and manage Knowledge Bases using the current UI.
+description: Practical guide to create, sync, test, and manage Knowledge Bases using the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Knowledge Usage
-
-This guide helps non-technical users use the **Knowledge** feature based on the current UI.
 
 ## What Knowledge is for
 
@@ -37,7 +35,7 @@ If action buttons are missing (for example **Add knowledge**, **Upload**, **Sync
 
 ## Knowledge list page
 
-![Knowledge list page](/static/img/list-knowledge.png)
+![Knowledge list page](/img/list-knowledge.png)
 
 On the **Knowledge** page, you can:
 
@@ -56,7 +54,7 @@ Knowledge cards display:
 
 ## Create a new knowledge base
 
-![Create a new knowledge](/static/img/create-knowledge.png)
+![Create a new knowledge](/img/create-knowledge.png)
 
 1. Click **Add knowledge**.
 2. Enter:
@@ -75,7 +73,7 @@ After creation, the UI opens the knowledge detail page automatically.
 
 ### 1) File Upload
 
-![Create a new knowledge](/static/img/create-knowledge.png)
+![Create a new knowledge](/img/create-knowledge.png)
 
 - Best for manual document uploads
 - No connection setup is required in the create dialog
@@ -87,7 +85,7 @@ Supported upload formats in the current UI:
 
 ### 2) Google Drive
 
-![Google Drive](/static/img/knowledge-google-drive.png)
+![Google Drive](/img/knowledge-google-drive.png)
 
 - Requires an active Google Drive connection
 - You select:
@@ -97,7 +95,7 @@ Supported upload formats in the current UI:
 
 ### 3) Crawl Web
 
-![Crawl Web](/static/img/web-crawl.png)
+![Crawl Web](/img/web-crawl.png)
 
 - Enter a target URL (for example documentation or help center pages)
 - You can configure crawl behavior, including:
@@ -108,7 +106,7 @@ Supported upload formats in the current UI:
 
 ## Knowledge detail page
 
-![Knowledge detail page](/static/img/edit-document.png)
+![Knowledge detail page](/img/edit-document.png)
 
 Inside one knowledge base, you can:
 
@@ -150,7 +148,7 @@ The page also shows an ingestion notice when a sync job is running or queued. Wh
 
 ## Upload documents (File Upload flow)
 
-![Upload documents](/static/img/upload-document.png)
+![Upload documents](/img/upload-document.png)
 
 1. Open a File Upload knowledge base.
 2. Click **Upload**.
@@ -170,7 +168,7 @@ If a file fails, the UI shows an error toast and file-level status feedback.
 
 ## Test Knowledge before real usage
 
-![Test Knowledge](/static/img/test-document.png)
+![Test Knowledge](/img/test-document.png)
 
 Use **Test Knowledge** to validate data quality before connecting to AI Agent flows.
 
@@ -200,7 +198,7 @@ When a web-crawl knowledge base has no documents yet, the empty state shows **Cr
 
 ## Delete a knowledge base
 
-![Delete Knowledge](/static/img/action-knowledge.png)
+![Delete Knowledge](/img/action-knowledge.png)
 
 1. Open the knowledge detail page.
 2. Open the action menu.

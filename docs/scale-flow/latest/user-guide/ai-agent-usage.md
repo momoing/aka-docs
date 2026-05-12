@@ -3,13 +3,11 @@ id: ai-agent-usage
 title: AI Agent Usage
 sidebar_label: AI Agent Usage
 sidebar_position: 14
-description: Practical guide for non-technical users to create, configure, test, and publish AI Agents using the current UI.
+description: Practical guide to create, configure, test, and publish AI Agents using the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # AI Agent Usage
-
-This guide helps non-technical users use the **AI Agent** feature based on the current UI.
 
 ## What AI Agent is for
 
@@ -26,7 +24,7 @@ Use **AI Agent** to:
 2. Select **Agents**.
 3. You will see the list of existing agents.
 
-![AI Agent list page](/static/img/list-agent.png)
+![AI Agent list page](/img/list-agent.png)
 
 ## Required permissions
 
@@ -59,7 +57,7 @@ Available status filters:
 
 ## Create a new agent
 
-![Create agent](/static/img/create-agent.png)
+![Create agent](/img/create-agent.png)
 
 1. Click **Add Agent**.
 2. In the **Create agent** dialog, choose a template:
@@ -76,7 +74,7 @@ Note: every new agent follows a section-by-section configuration flow.
 
 ## Import an agent from JSON
 
-![Import agent](/static/img/import-agent.png)
+![Import agent](/img/import-agent.png)
 
 1. On the list page, click **Import Agent**.
 2. Select a previously exported `.json` file.
@@ -100,7 +98,7 @@ In the agent detail screen, the left panel shows these steps:
 
 ### 1) Basic information
 
-![Basic information section](/static/img/basic-information.png)
+![Basic information section](/img/basic-information.png)
 
 Configure:
 
@@ -112,7 +110,7 @@ This section defines the agent identity and purpose.
 
 ### 2) Knowledge
 
-![Knowledge section](/static/img/knowledge.png)
+![Knowledge section](/img/knowledge.png)
 
 Add knowledge sources so the agent can answer more accurately:
 
@@ -125,7 +123,7 @@ Without proper permissions, add/remove actions are unavailable.
 
 ### 3) Integrations
 
-![Integration section](/static/img/integration.png)
+![Integration section](/img/integration.png)
 
 This section controls which integration connections the agent can use:
 
@@ -141,21 +139,21 @@ This section defines agent behavior in 3 groups:
 
 - **How to respond**: response style and behavior
 
-![How to respond](/static/img/instruction-1.png)
+![How to respond](/img/instruction-1.png)
 
 - **What to avoid**: guardrails and restricted content
 
-![What to avoid](/static/img/instruction-2.png)
+![What to avoid](/img/instruction-2.png)
 
 - **Exiting a conversation**: conditions for handoff or exit
 
-![Exiting a conversation](/static/img/instruction-3.png)
+![Exiting a conversation](/img/instruction-3.png)
 
 This is where you train the agent's tone, safety rules, and handoff logic.
 
 ### 5) Advanced actions
 
-![Advanced actions](/static/img/advanced.png)
+![Advanced actions](/img/advanced.png)
 
 Enable or disable advanced actions by group:
 
@@ -174,7 +172,7 @@ Each action includes fields like trigger condition and guidelines so the agent k
 
 ## Save, publish, test, and manage versions
 
-![Action agent](/static/img/action-agent.png)
+![Action agent](/img/action-agent.png)
 
 At the top-right of the detail page, use version controls:
 
@@ -189,7 +187,7 @@ At the top-right of the detail page, use version controls:
   - **Delete Draft Version** (draft only)
   - **Delete This Agent**
 
-Recommended safe workflow for non-technical users:
+Recommended safe workflow:
 
 1. Configure all relevant sections.
 2. Click **Save Draft**.
@@ -206,7 +204,7 @@ For published versions, open **Execution tasks** to:
 
 This is useful when investigating why an agent response was correct or incorrect.
 
-## Best practices for non-technical users
+## Best practices
 
 - Use clear agent names by team or purpose (for example: `Support - VN`, `Sales FAQ Bot`)
 - Keep **Description** specific so the agent stays in scope

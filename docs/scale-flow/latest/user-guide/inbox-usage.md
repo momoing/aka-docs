@@ -3,13 +3,11 @@ id: inbox-usage
 title: Inbox Usage
 sidebar_label: Inbox Usage
 sidebar_position: 19
-description: Step-by-step Inbox guide for non-technical users based on the current ScaleFlow UI.
+description: Step-by-step Inbox guide based on the current ScaleFlow UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Inbox Usage
-
-This guide explains how non-technical users can use **Inbox** in ScaleFlow based on the current UI implementation.
 
 ## What Inbox is for
 
@@ -29,7 +27,7 @@ Use Inbox to:
    - Middle: conversation list
    - Right: active conversation + contact panel
 
-![Inbox overview with 3-column layout](/static/img/inbox.png)
+![Inbox overview with 3-column layout](/img/inbox.png)
 
 If you cannot open Inbox, ask your admin to check your `inbox.conversation.view` permission.
 
@@ -60,7 +58,7 @@ In the middle panel, you can:
   - Lifecycle stage
 - Scroll to load more conversations automatically
 
-![Conversation list with search, sort, and filters](/static/img/conversation-list-search-sort-filter.png)
+![Conversation list with search, sort, and filters](/img/conversation-list-search-sort-filter.png)
 
 Click any conversation row to open it.
 
@@ -125,7 +123,7 @@ On each message, open the action menu to:
 - Reply to that specific message (quote-style reply)
 - Copy message link
 
-![Message action menu in a conversation](/static/img/action-message.png)
+![Message action menu in a conversation](/img/action-message.png)
 
 After choosing reply, a reply preview appears above the input. You can remove it before sending.
 
@@ -139,7 +137,7 @@ Main tabs:
 - **Tickets**: view related tickets and create a new ticket
 - **Attachments**: files related to the contact
 
-![Contact profile panel in Inbox](/static/img/profile-inbox.png)
+![Contact profile panel in Inbox](/img/profile-inbox.png)
 
 You can also open the full contact page using the external-link icon in the panel header.
 
@@ -153,7 +151,7 @@ Use it to simulate customer messages for internal testing:
 - They do not impact real customers
 - The first test message can create a test conversation in Inbox automatically
 
-## Recommended workflow for non-technical users
+## Recommended workflow
 
 1. Start from **Assigned to me**.
 2. Open one conversation and review contact info first.

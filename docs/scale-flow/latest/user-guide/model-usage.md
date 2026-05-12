@@ -3,13 +3,11 @@ id: model-usage
 title: Model Usage
 sidebar_label: Model Usage
 sidebar_position: 16
-description: Practical guide for non-technical users to create providers, create models, and select models in AI Agent using the current UI.
+description: Practical guide to create providers, create models, and select models in AI Agent using the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Model Usage
-
-This guide helps non-technical users use the **Models** feature based on the current UI.
 
 ## What Models are for
 
@@ -51,7 +49,7 @@ Each provider card shows:
 - Configuration status (whether API key is configured)
 - Last updated date
 
-![Provider list page](/static/img/list-provider.png)
+![Provider list page](/img/list-provider.png)
 
 ## Create a provider
 
@@ -64,7 +62,7 @@ Each provider card shows:
    - **Enabled** (on/off)
    - **Import default models** (on/off, available only when creating a new provider)
 
-![Create provider dialog](/static/img/create-provider.png)
+![Create provider dialog](/img/create-provider.png)
 
 3. Click **Create**.
 4. Open the created provider card to view details.
@@ -81,7 +79,7 @@ When you open a provider, you can:
 
 If no model exists, the page shows an empty state.
 
-![Model list in provider detail](/static/img/list-model.png)
+![Model list in provider detail](/img/list-model.png)
 
 ## Provider Settings
 
@@ -96,7 +94,7 @@ You can also see:
 - Provider type and provider name (read-only)
 - Current API key (masked) and update time (if available)
 
-![Provider settings dialog](/static/img/setting-provider.png)
+![Provider settings dialog](/img/setting-provider.png)
 
 ## Create a model
 
@@ -107,7 +105,7 @@ You can also see:
    - **Capabilities** (select one or more: Text, Vision, Audio, Video, Reasoning, Embeddings)
    - **Enabled** switch
 
-![Create model dialog](/static/img/create-model.png)
+![Create model dialog](/img/create-model.png)
 
 3. Click **Create**.
 
@@ -124,7 +122,7 @@ For each model card:
 2. Choose **Edit** or **Delete**.
 3. Confirm in the dialog when deleting.
 
-![Edit model dialog](/static/img/edit-model.png)
+![Edit model dialog](/img/edit-model.png)
 
 Delete is permanent for that model entry.
 
@@ -167,7 +165,7 @@ Important:
 - Some model families do not support temperature control, so temperature will be locked.
 - These settings tune the agent response style and length, not provider connection setup.
 
-## Recommended workflow for non-technical users
+## Recommended workflow
 
 1. Create one provider with a valid API key.
 2. Ensure the provider is **Enabled**.

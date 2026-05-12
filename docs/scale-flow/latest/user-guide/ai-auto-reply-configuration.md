@@ -3,13 +3,11 @@ id: ai-auto-reply-configuration
 title: AI Auto-Reply for Inbox
 sidebar_label: AI Auto-Reply for Inbox
 sidebar_position: 5
-description: Practical guide for non-technical users to set up and use Smart Reply in Inbox based on the current UI.
+description: Practical guide to set up and use Smart Reply in Inbox based on the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # AI Auto-Reply for Inbox
-
-This guide helps non-technical users configure and use **AI auto-reply** in **Inbox**, based on the current UI in `apps/ui`.
 
 ## What AI auto-reply means in the current product
 
@@ -21,7 +19,7 @@ When **Smart Reply** is enabled, the system suggests draft replies that agents c
 
 ## Open the Smart Reply settings page
 
-![Smart Reply card in Inbox Co-pilot](/static/img/smart-reply.png)
+![Smart Reply card in Inbox Co-pilot](/img/smart-reply.png)
 
 1. In the left sidebar, open **AI**.
 2. Select **Inbox Co-pilot**.
@@ -33,7 +31,7 @@ If you still cannot find it, use this checklist:
 - The **Smart Reply** card has a message/reply icon and the label **Smart Reply**.
 - Clicking that card opens the edit page with action buttons **Cancel** and **Save changes** at the top-right.
 
-## Configure Smart Reply (for non-technical users)
+## Configure Smart Reply
 
 The Smart Reply page currently includes:
 
@@ -89,7 +87,7 @@ You can paste this directly into **System Prompt / AI Instructions**:
 
 ## Use Smart Reply directly in Inbox
 
-![AI Smart Reply in Inbox composer](/static/img/ai-smart-writing.png)
+![AI Smart Reply in Inbox composer](/img/ai-smart-writing.png)
 
 1. Open **Inbox** and select a conversation.
 2. In the composer, keep the tab on **Reply**.

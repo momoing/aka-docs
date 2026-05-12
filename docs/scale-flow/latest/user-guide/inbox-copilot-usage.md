@@ -3,13 +3,11 @@ id: inbox-copilot-usage
 title: Inbox Copilot Usage
 sidebar_label: Inbox Copilot Usage
 sidebar_position: 17
-description: Practical guide for non-technical users to enable, configure, and use Inbox Co-pilot based on the current UI.
+description: Practical guide to enable, configure, and use Inbox Co-pilot based on the current UI.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Inbox Copilot Usage
-
-This guide helps non-technical users use **Inbox Co-pilot** based on the current UI in `apps/ui`.
 
 ## What Inbox Co-pilot is for
 
@@ -27,7 +25,7 @@ In the current UI, Inbox Co-pilot includes 5 assistants:
 2. Select **Inbox Assistant (Inbox Co-pilot)**.
 3. You will see assistant cards.
 
-![Inbox Co-pilot assistant list](/static/img/list-inbox-copilot.png)
+![Inbox Co-pilot assistant list](/img/list-inbox-copilot.png)
 
 ## Required permissions
 
@@ -51,7 +49,7 @@ Click any card to open that assistant's edit page.
 
 ## Configure each assistant
 
-![Inbox Co-pilot edit page](/static/img/edit-inbox-copilot.png)
+![Inbox Co-pilot edit page](/img/edit-inbox-copilot.png)
 
 Each edit page has:
 
@@ -67,7 +65,7 @@ Both pages have the same structure:
 - **Enabled**: turn assistant on/off
 - **System Prompt / AI Instructions**: instructions for how AI should generate content
 
-Recommended for non-technical users:
+Recommended setup:
 
 - Start with a short and clear prompt.
 - Save and test directly in Inbox chat.
@@ -143,7 +141,7 @@ After enabling assistants in settings, use them directly in Inbox chat:
    - Or use **Custom prompt** for one-time instructions
 4. Review the generated text, then click **Send** (or **Add Note**).
 
-## Recommended workflow for non-technical users
+## Recommended workflow
 
 1. Enable **Smart Reply** first for the fastest impact.
 2. Set a simple, clear prompt that matches your brand tone.

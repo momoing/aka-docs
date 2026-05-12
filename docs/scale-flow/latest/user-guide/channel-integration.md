@@ -3,7 +3,7 @@ id: channel-integration
 title: Channel Integration
 sidebar_label: Channel Integration
 sidebar_position: 4
-description: Step-by-step guide to connect messaging channels in ScaleFlow for non-technical users.
+description: Step-by-step guide to connect messaging channels in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
@@ -39,11 +39,11 @@ Note: Some other channels are visible in the list but currently show **Coming So
 
 If the process takes too long, click **Cancel** and try again.
 
-![Zalo connection flow](/static/img/zalo.png)
+![Zalo connection flow](/img/zalo.png)
 
 ## Connecting Telegram (slightly different)
 
-![Telegram bot token connection](/static/img/telegram.png)
+![Telegram bot token connection](/img/telegram.png)
 
 Telegram uses a **Bot Token** instead of OAuth popup authorization.
 
