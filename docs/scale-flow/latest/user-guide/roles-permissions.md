@@ -58,7 +58,7 @@ Important behavior in the current UI:
    - Enter **Role name** (required)
    - Enter **Description** (optional)
    - Optional: choose **Copy permissions from role** to copy a permission set from another role
-3. Click **Continue**.![alt text](image.png)
+3. Click **Continue**.
 4. In **Add permissions**, select the permissions you want.
 
 ![Add permissions](/img/list-permission.png)
