@@ -33,4 +33,4 @@ You may use this activity to retrieve a record from Salesforce. This activity on
 
 **Output**
 
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

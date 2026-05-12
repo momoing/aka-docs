@@ -40,4 +40,4 @@ This activity allows you to check if an image exists or not
 
 **Output**
 
-* **Result (Boolean)**– The result of the check, indicated if the image exists or not. Only return True or False.
+* **Result (Boolean)** – The result of the check, indicated if the image exists or not. Only return True or False.

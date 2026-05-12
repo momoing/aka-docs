@@ -7,8 +7,6 @@ description: Practical guide to create, configure, test, and publish AI Agents u
 displayed_sidebar: scaleFlowSidebar
 ---
 
-# AI Agent Usage
-
 ## What AI Agent is for
 
 Use **AI Agent** to:

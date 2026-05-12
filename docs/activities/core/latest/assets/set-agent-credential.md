@@ -41,4 +41,4 @@ This activity allows you to update a specified akaBot Center credential value th
 
 **Output**
 
-* **Set Success (Boolean)**– This property specifies the result of the action. Only have two possible values: True or False. Return True if the Agent Credential has been successfully set; Return False if the Agent Credential has not been set successfully.
+* **Set Success (Boolean)** – This property specifies the result of the action. Only have two possible values: True or False. Return True if the Agent Credential has been successfully set; Return False if the Agent Credential has not been set successfully.

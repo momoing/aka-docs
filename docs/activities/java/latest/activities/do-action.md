@@ -45,4 +45,4 @@ Text
 
 **Output**
 
-* **Success (Boolean)**– Indicate if the action runs successfully.
+* **Success (Boolean)** – Indicate if the action runs successfully.

@@ -38,4 +38,4 @@ This activity allows you to update a specified Asset value that is already avail
 
 **Output**
 
-* **Set Success (Boolean)**– This property specifies the result of the action. Only have two possible values: True or False. Return True if the Asset value has been successfully updated; Return False if the Asset value has not been updated successfully.
+* **Set Success (Boolean)** – This property specifies the result of the action. Only have two possible values: True or False. Return True if the Asset value has been successfully updated; Return False if the Asset value has not been updated successfully.
