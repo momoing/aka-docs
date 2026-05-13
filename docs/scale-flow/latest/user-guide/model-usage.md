@@ -48,7 +48,7 @@ Each provider card shows:
 - Configuration status (whether API key is configured)
 - Last updated date
 
-![Provider list page](/img/list-provider.png)
+![Provider list page](/static/img/list-provider.png)
 
 ## Create a provider
 
@@ -63,7 +63,7 @@ Create a provider when your organization wants to use an AI service account in S
    - **Enabled** (on/off)
    - **Import default models** (on/off, available only when creating a new provider)
 
-![Create provider dialog](/img/create-provider.png)
+![Create provider dialog](/static/img/create-provider.png)
 
 3. Click **Create**.
 4. Open the created provider card to view details.
@@ -82,7 +82,7 @@ When you open a provider, you can:
 
 If no model exists, the page shows an empty state.
 
-![Model list in provider detail](/img/list-model.png)
+![Model list in provider detail](/static/img/list-model.png)
 
 ## Provider Settings
 
@@ -97,7 +97,7 @@ You can also see:
 - Provider type and provider name (read-only)
 - Current API key (masked) and update time (if available)
 
-![Provider settings dialog](/img/setting-provider.png)
+![Provider settings dialog](/static/img/setting-provider.png)
 
 ## Create a model
 
@@ -110,7 +110,7 @@ Create a model when the provider is connected but the exact AI model is not avai
    - **Capabilities** (select one or more: Text, Vision, Audio, Video, Reasoning, Embeddings)
    - **Enabled** switch
 
-![Create model dialog](/img/create-model.png)
+![Create model dialog](/static/img/create-model.png)
 
 3. Click **Create**.
 
@@ -127,7 +127,7 @@ For each model card:
 2. Choose **Edit** or **Delete**.
 3. Confirm in the dialog when deleting.
 
-![Edit model dialog](/img/edit-model.png)
+![Edit model dialog](/static/img/edit-model.png)
 
 Delete is permanent for that model entry.
 

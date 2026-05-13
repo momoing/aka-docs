@@ -48,7 +48,7 @@ For the best results, prepare these first:
 
 ## Open AI Assistant settings
 
-![Inbox Assistant list](/img/list-inbox-copilot.png)
+![Inbox Assistant list](/static/img/list-inbox-copilot.png)
 
 1. In the left sidebar, open **AI**.
 2. Select **Inbox Assistant**.
@@ -59,7 +59,7 @@ If you cannot see the page or save changes, ask your admin to check your Inbox o
 
 ## Set up Smart Assistant
 
-![Smart Assistant settings page](/img/setting-smart-assistant.png)
+![Smart Assistant settings page](/static/img/setting-smart-assistant.png)
 
 Smart Assistant uses an AI Agent to answer customers automatically.
 
@@ -121,7 +121,7 @@ Simple Smart Reply instruction example:
 
 ## Use AI Assistant inside Inbox
 
-![AI assistant in Inbox composer](/img/ai-assistant-inbox.png)
+![AI assistant in Inbox composer](/static/img/ai-assistant-inbox.png)
 
 1. Open **Inbox**.
 2. Select a customer conversation.

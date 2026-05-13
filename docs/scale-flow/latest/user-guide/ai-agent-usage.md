@@ -30,13 +30,13 @@ Example: A school creates an AI Agent called `Admissions Assistant`. It answers 
 2. Select **Agents**.
 3. You will see the list of existing agents.
 
-![AI Agent list page](/img/list-agent.png)
+![AI Agent list page](/static/img/list-agent.png)
 
 If you cannot see action buttons such as **Add Agent**, **Import Agent**, or **Save Draft**, ask your admin to update your access.
 
 ## Create your first AI Agent
 
-![Create agent](/img/create-agent.png)
+![Create agent](/static/img/create-agent.png)
 
 1. Click **Add Agent**.
 2. In the **Create agent** dialog, choose a template:
@@ -57,7 +57,7 @@ The agent detail page is organized into simple setup sections.
 
 ### 1. Basic information
 
-![Basic information section](/img/basic-information.png)
+![Basic information section](/static/img/basic-information.png)
 
 Use this section to name the agent and choose the AI model it will use.
 
@@ -71,7 +71,7 @@ Simple description example:
 
 ### 2. Knowledge
 
-![Knowledge section](/img/knowledge.png)
+![Knowledge section](/static/img/knowledge.png)
 
 Knowledge is the information the agent can use to answer correctly. Add FAQs, policies, product details, documents, or website pages.
 
@@ -81,12 +81,12 @@ Knowledge is the information the agent can use to answer correctly. Add FAQs, po
    - **Choose existing**: pick one or more knowledge bases you already created in the library.
 3. Click **Next** to continue (or **Cancel** to close without changes).
 
-![Add knowledge base: Create new or Choose existing](/img/add-knowledge-agent.png)
+![Add knowledge base: Create new or Choose existing](/static/img/add-knowledge-agent.png)
 
 4. If you chose **Choose existing**, the **Select existing knowledge** screen opens. Use **Search knowledge bases...** if the list is long. Click each row to select or deselect it. The footer shows how many are selected.
 5. Click **Add selected** to attach them to this agent (or **Cancel** to go back).
 
-![Select existing knowledge and Add selected](/img/select-knowledge-agent.png)
+![Select existing knowledge and Add selected](/static/img/select-knowledge-agent.png)
 
 6. Confirm the chosen knowledge bases appear in the **Knowledge** section on the agent page. You can repeat **Add Knowledge** to attach more bases over time.
 
@@ -94,7 +94,7 @@ If you have not created Knowledge yet, follow [Knowledge Usage](./knowledge-usag
 
 ### 3. Integrations
 
-![Integration section](/img/integration.png)
+![Integration section](/static/img/integration.png)
 
 Integrations let the agent work with connected business tools, such as HubSpot, Google Drive, or Google Sheets.
 
@@ -106,7 +106,7 @@ Learn more in [Integration Usage](./integration-usage).
 
 Instructions tell the agent how to behave.
 
-![How to respond](/img/instruction-1.png)
+![How to respond](/static/img/instruction-1.png)
 
 Write rules in simple language:
 
@@ -116,17 +116,17 @@ Write rules in simple language:
 - Do not guess prices, policies, or promises.
 - Transfer to staff for complaints, refunds, legal questions, or sensitive information.
 
-![What to avoid](/img/instruction-2.png)
+![What to avoid](/static/img/instruction-2.png)
 
 Use the "avoid" section for topics the agent should not handle alone.
 
-![Exiting a conversation](/img/instruction-3.png)
+![Exiting a conversation](/static/img/instruction-3.png)
 
 Use the handoff section to explain when a human should continue.
 
 ### 5. Advanced actions
 
-![Advanced actions](/img/advanced.png)
+![Advanced actions](/static/img/advanced.png)
 
 Advanced actions are tasks the agent can perform when allowed, such as:
 
@@ -139,7 +139,7 @@ Start with fewer actions. Add more only after testing.
 
 ## Test before publishing
 
-![Action agent](/img/action-agent.png)
+![Action agent](/static/img/action-agent.png)
 
 Use this safe workflow:
 
@@ -175,7 +175,7 @@ After publishing:
 
 ## Import an existing agent
 
-![Import agent](/img/import-agent.png)
+![Import agent](/static/img/import-agent.png)
 
 Use import only if your team already has an exported agent file.
 

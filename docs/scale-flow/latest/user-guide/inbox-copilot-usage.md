@@ -28,7 +28,7 @@ Smart Assistant is the main AI workflow because it connects your AI Agent, Knowl
 2. Select **Inbox Assistant**.
 3. You will see assistant cards.
 
-![Inbox Assistant list](/img/list-inbox-copilot.png)
+![Inbox Assistant list](/static/img/list-inbox-copilot.png)
 
 If you cannot see the menu or edit buttons, ask your admin to review your access.
 
@@ -43,7 +43,7 @@ Click any card to open that assistant's edit page.
 
 ## Configure Smart Assistant
 
-![Inbox Assistant edit page](/img/edit-inbox-copilot.png)
+![Inbox Assistant edit page](/static/img/edit-inbox-copilot.png)
 
 Smart Assistant is the best place to start if you want AI to help customers automatically.
 

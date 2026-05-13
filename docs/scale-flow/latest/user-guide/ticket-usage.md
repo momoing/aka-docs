@@ -43,18 +43,18 @@ You can create tickets from two places:
 1. **Tickets page**  
    Go to **Tickets** and click **Create Ticket**.
 
-![Create ticket from ticket](/img/create-ticket-ticket.png)
+![Create ticket from ticket](/static/img/create-ticket-ticket.png)
 
 2. **Conversation view (Inbox)**  
    Open a conversation, go to the tickets section, then click **Create**.
 
-![Create ticket from inbox](/img/create-ticket-inbox.png)
+![Create ticket from inbox](/static/img/create-ticket-inbox.png)
 
 ## Create a ticket
 
 When creating a ticket, fill in:
 
-![Create ticket screen](/img/create-ticket.png)
+![Create ticket screen](/static/img/create-ticket.png)
 
 - **Title** (required)
 - **Description** (optional)
@@ -94,7 +94,7 @@ Simple status guide:
 
 In ticket detail, users can:
 
-![Ticket detail view](/img/detail-ticket.png)
+![Ticket detail view](/static/img/detail-ticket.png)
 
 - Update title and description
 - Change status, priority, type, and due date

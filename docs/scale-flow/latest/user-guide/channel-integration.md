@@ -66,7 +66,7 @@ Before connecting, make sure:
 3. Check the **Connected accounts** area.
 4. If no account is connected yet, click **Connect**.
 
-![Click Connect to start Zalo OA connection](/img/zalo-connect-button.png)
+![Click Connect to start Zalo OA connection](/static/img/zalo-connect-button.png)
 
 ### Step 2: Sign in to Zalo
 
@@ -76,7 +76,7 @@ After you click **Connect**, Zalo opens a sign-in window.
 2. If Zalo shows a QR code, open the Zalo app on your phone and scan the QR code.
 3. Continue until Zalo shows the permission screen.
 
-![Zalo login QR code screen](/img/zalo-login-qr.png)
+![Zalo login QR code screen](/static/img/zalo-login-qr.png)
 
 Tip: If the wrong Zalo account appears, close the window and sign in again with the correct account.
 
@@ -89,7 +89,7 @@ Zalo will ask you to allow ScaleFlow to connect with your Official Account.
 3. Review the requested permissions.
 4. Approve the request to continue.
 
-![Zalo OA permission approval screen](/img/zalo-permission-approval.png)
+![Zalo OA permission approval screen](/static/img/zalo-permission-approval.png)
 
 In simple terms, this permission allows ScaleFlow to receive and manage customer conversations from that Zalo OA. Do not approve the connection if the selected OA is not your business account.
 
@@ -101,7 +101,7 @@ After approval, ScaleFlow shows a success message in the connection window.
 2. Click **Close** or close the window.
 3. Return to the ScaleFlow channel page.
 
-![Zalo authentication successful message](/img/zalo-auth-success.png)
+![Zalo authentication successful message](/static/img/zalo-auth-success.png)
 
 ### Step 5: Confirm the account appears in ScaleFlow
 
@@ -113,7 +113,7 @@ The connection is successful when:
 - The status shows **active**.
 - The card has actions such as **Test**, **Reconnect**, and **Delete**.
 
-![Zalo OA connected successfully in ScaleFlow](/img/zalo-connected-success.png)
+![Zalo OA connected successfully in ScaleFlow](/static/img/zalo-connected-success.png)
 
 ### What the buttons mean
 
@@ -149,7 +149,7 @@ Treat your Bot Token like a password. Anyone with the token can control your bot
 
 You will use **Connected accounts** at the bottom to confirm the bot after setup. There you can **Test**, **Reconnect**, or **Delete** a connection, same idea as other channels.
 
-![Telegram channel setup with Connect and Connected accounts](/img/connect_tele.png)
+![Telegram channel setup with Connect and Connected accounts](/static/img/connect_tele.png)
 
 ### Step 2: Find the official BotFather in Telegram
 
@@ -159,7 +159,7 @@ You create the bot inside the Telegram app (phone or desktop), not inside ScaleF
 2. Tap the search field and type **`@BotFather`**.
 3. Open the account named **BotFather** that has the **blue verified checkmark**. Ignore unofficial accounts with similar names.
 
-![Search for official @BotFather in Telegram](/img/telegram-search-botfather.png)
+![Search for official @BotFather in Telegram](/static/img/telegram-search-botfather.png)
 
 ### Step 3: Create a bot and copy the Bot Token
 
@@ -168,7 +168,7 @@ You create the bot inside the Telegram app (phone or desktop), not inside ScaleF
 3. Usernames must end with **`bot`** (for example `MyShopSupport_bot`). If a name is taken, BotFather will ask for another.
 4. When creation succeeds, BotFather sends a message that includes your **HTTP API token** (a long string with a colon `:` in the middle). **Copy the full token** and keep it private.
 
-![BotFather success message with Bot Token](/img/telegram-botfather-token.png)
+![BotFather success message with Bot Token](/static/img/telegram-botfather-token.png)
 
 ### Step 4: Paste the token in ScaleFlow and verify
 
@@ -178,7 +178,7 @@ The **Connect Telegram Bot** window should still be open from Step 1. If you clo
 2. Optionally use the **How to get a token? @BotFather** link as a reminder.
 3. Click **Verify Token** so ScaleFlow can check the token with Telegram.
 
-![Connect Telegram Bot: enter token and Verify Token](/img/telegram-modal-enter-token.png)
+![Connect Telegram Bot: enter token and Verify Token](/static/img/telegram-modal-enter-token.png)
 
 ### Step 5: Confirm the bot name and finish
 
@@ -187,13 +187,13 @@ If the token is valid, you will see a green **Bot Found** message and your bot�
 1. Check that the handle matches the bot you created in BotFather.
 2. Click **Connect** to save the connection in ScaleFlow.
 
-![Bot Found confirmation before Connect](/img/telegram-modal-bot-found.png)
+![Bot Found confirmation before Connect](/static/img/telegram-modal-bot-found.png)
 
 ### Step 6: Confirm the account in ScaleFlow
 
 Back on **Channels** > **Telegram**, your bot should appear under **Connected accounts** with status **active**, similar to the card in the screenshot in Step 1. Use **Test** to confirm messages can reach ScaleFlow, and **Reconnect** or **Delete** when you need to refresh or remove the link.
 
-![Telegram — Connected accounts after successful connection](/img/telegram-connected-accounts.png)
+![Telegram — Connected accounts after successful connection](/static/img/telegram-connected-accounts.png)
 
 ## Manage connected accounts
 
@@ -216,9 +216,9 @@ For Telegram, the same conversation appears in two places: the customer chats wi
 1. On a phone, open Telegram, start your bot, and send something (for example **`/start`** and a short question).
 2. In ScaleFlow, open [Inbox](./inbox-usage), pick the conversation, and confirm the same text appears. You can reply from the **Reply** box or use **AI Smart Writing** when it is enabled.
 
-![Customer sends messages to your bot in the Telegram app](/img/telegram-test-chat-mobile.png)
+![Customer sends messages to your bot in the Telegram app](/static/img/telegram-test-chat-mobile.png)
 
-![The same thread in ScaleFlow Inbox with Telegram labels and a reply draft](/img/telegram-test-chat-inbox.png)
+![The same thread in ScaleFlow Inbox with Telegram labels and a reply draft](/static/img/telegram-test-chat-inbox.png)
 
 ## Real-world workflow
 

@@ -43,7 +43,7 @@ If buttons such as **New contact**, **Import contacts**, or tag edit/remove acti
 
 1. Go to **Contacts** -> **New contact**.
 
-![New contact screen](/img/new-contact.png)
+![New contact screen](/static/img/new-contact.png)
 
 2. Fill in contact information:
    - First name / Last name
@@ -72,7 +72,7 @@ On the **All Contacts** page:
 
 - Use the search box to find by name, email, or phone.
 
-![Contact filters on All Contacts](/img/list-contact.png)
+![Contact filters on All Contacts](/static/img/list-contact.png)
 
 - Use filter chips to narrow down results:
   - Label
@@ -145,13 +145,13 @@ Note: some contacts cannot be deleted yet if they already have conversations.
 
 Go to **Contacts** -> **Tags** to:
 
-![Tags management with type filter](/img/list-tags-contact.png)
+![Tags management with type filter](/static/img/list-tags-contact.png)
 
 - Search tags
 - Filter by tag type
 - Create new tags
 
-![Create new tag dialog](/img/create-tag.png)
+![Create new tag dialog](/static/img/create-tag.png)
 
 - Edit tag name/color
 - Delete tags

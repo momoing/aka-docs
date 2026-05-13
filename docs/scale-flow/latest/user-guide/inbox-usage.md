@@ -34,7 +34,7 @@ Example: A customer sends a Facebook message asking about delivery. The message 
    - Middle: conversation list
    - Right: active conversation + contact panel
 
-![Inbox overview with 3-column layout](/img/inbox.png)
+![Inbox overview with 3-column layout](/static/img/inbox.png)
 
 If you cannot open Inbox, ask your admin to check your Inbox access.
 
@@ -53,7 +53,7 @@ If a message does not appear in Inbox, test or reconnect the channel first.
 
 ## Understand the left categories
 
-![Understand the left categories](/img/left-categories-panel.png)
+![Understand the left categories](/static/img/left-categories-panel.png)
 
 Inbox categories are shown in the left panel:
 
@@ -80,7 +80,7 @@ In the middle panel, you can:
   - Lifecycle stage
 - Scroll to load more conversations automatically
 
-![Conversation list with search, sort, and filters](/img/conversation-list-search-sort-filter.png)
+![Conversation list with search, sort, and filters](/static/img/conversation-list-search-sort-filter.png)
 
 Click any conversation row to open it.
 
@@ -96,7 +96,7 @@ Each row can show:
 
 ## Use the conversation header (top of chat area)
 
-![Use the conversation header](/img/conversation-header-actions.png)
+![Use the conversation header](/static/img/conversation-header-actions.png)
 
 When a conversation is open, the header lets you:
 
@@ -113,7 +113,7 @@ Assign to **AI Assistant** when you want AI to help continue the conversation ac
 
 ## Reply to customers or add internal notes
 
-![Reply to customers or add internal notess](/img/reply_internal_note.png)
+![Reply to customers or add internal notess](/static/img/reply_internal_note.png)
 
 At the bottom input area:
 
@@ -128,7 +128,7 @@ If you can open the conversation but cannot type/send, you are in read-only mode
 
 ## How AI Assistant helps in Inbox
 
-![AI assistant in Inbox composer](/img/ai-assistant-inbox.png)
+![AI assistant in Inbox composer](/static/img/ai-assistant-inbox.png)
 
 When AI Assistant is enabled:
 
@@ -157,7 +157,7 @@ On each message, open the action menu to:
 - Reply to that specific message (quote-style reply)
 - Copy message link
 
-![Message action menu in a conversation](/img/action-message.png)
+![Message action menu in a conversation](/static/img/action-message.png)
 
 After choosing reply, a reply preview appears above the input. You can remove it before sending.
 
@@ -171,15 +171,15 @@ Main tabs:
 - **Tickets**: view related tickets and create a new ticket
 - **Attachments**: files related to the contact
 
-![Contact profile panel in Inbox](/img/profile-inbox.png)
+![Contact profile panel in Inbox](/static/img/profile-inbox.png)
 
 You can also open the full contact page using the external-link icon in the panel header.
 
-![Expand contact](/img/expand-contact.png)
+![Expand contact](/static/img/expand-contact.png)
 
 ## Test chat (safe simulation)
 
-![Test chat](/img/test-chat.png)
+![Test chat](/static/img/test-chat.png)
 
 In Inbox header actions, a flask icon opens **Test Chat** (if your role allows it).
 
@@ -197,7 +197,7 @@ Use tickets when a conversation needs follow-up beyond a simple reply.
 
 Before expecting automatic ticket creation, make sure ticket actions are enabled in the AI Agent configuration.
 
-![Enable ticket action in AI Agent settings](/img/setting-ticket-inbox.png)
+![Enable ticket action in AI Agent settings](/static/img/setting-ticket-inbox.png)
 
 Important setup checklist for auto ticket creation:
 
@@ -216,7 +216,7 @@ Example:
 6. Staff update the ticket status until the issue is resolved.
 7. Staff reply to the customer in Inbox and close the conversation.
 
-![AI creates ticket from an Inbox conversation](/img/ai-create-ticket.png)
+![AI creates ticket from an Inbox conversation](/static/img/ai-create-ticket.png)
 
 If AI says it needs human support but no ticket is created, check the setup checklist above first. In most cases, ticket action is disabled or the agent version in Smart Assistant was not republished after changes.
 

@@ -29,7 +29,7 @@ If the page is read-only or blocked, ask your admin to review your organization 
 
 ## Open Tenant Management
 
-![Tenant Management overview](/img/tenant-manage.png)
+![Tenant Management overview](/static/img/tenant-manage.png)
 
 1. In the left sidebar, open **Organization**.
 2. Select **Tenant Management**.

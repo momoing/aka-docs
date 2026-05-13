@@ -32,7 +32,7 @@ Example: If your display name is clear, teammates can easily assign a customer c
    - Contact information
    - Account details
 
-![Profile page overview](/img/profile.png)
+![Profile page overview](/static/img/profile.png)
 
 ## Update your basic information
 

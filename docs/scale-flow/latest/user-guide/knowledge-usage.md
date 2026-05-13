@@ -34,7 +34,7 @@ If action buttons such as **Add knowledge**, **Upload**, **Synchronize**, **Craw
 
 ## Knowledge list page
 
-![Knowledge list page](/img/list-knowledge.png)
+![Knowledge list page](/static/img/list-knowledge.png)
 
 On the **Knowledge** page, you can:
 
@@ -48,7 +48,7 @@ Each card shows the name, source type, current status, and last update time.
 
 ## Create a Knowledge base
 
-![Create a new knowledge](/img/create-knowledge.png)
+![Create a new knowledge](/static/img/create-knowledge.png)
 
 1. Click **Add knowledge**.
 2. Enter:
@@ -67,7 +67,7 @@ After creation, the UI opens the knowledge detail page automatically.
 
 ### File Upload
 
-![Create a new knowledge](/img/create-knowledge.png)
+![Create a new knowledge](/static/img/create-knowledge.png)
 
 Use **File Upload** when your information is in documents on your computer.
 
@@ -85,7 +85,7 @@ After files appear in the document list, run **Sync knowledge** (or **Synchroniz
 
 ### Google Drive
 
-![Google Drive](/img/knowledge-google-drive.png)
+![Google Drive](/static/img/knowledge-google-drive.png)
 
 Use **Google Drive** when your team already keeps business documents in Google Drive.
 
@@ -93,7 +93,7 @@ Before using it, connect Google Drive in [Integration Usage](./integration-usage
 
 ### Crawl Web
 
-![Crawl Web](/img/web-crawl.png)
+![Crawl Web](/static/img/web-crawl.png)
 
 Use **Crawl Web** when your information is already published on a website, such as a help center or policy page.
 
@@ -101,7 +101,7 @@ Enter the page address and let ScaleFlow read the selected website pages. Start 
 
 ## Knowledge detail page
 
-![Knowledge detail page](/img/edit-document.png)
+![Knowledge detail page](/static/img/edit-document.png)
 
 Inside one knowledge base, you can:
 
@@ -126,7 +126,7 @@ Use these actions whenever your business information changes.
 
 ## Upload documents
 
-![Upload documents](/img/upload-document.png)
+![Upload documents](/static/img/upload-document.png)
 
 1. Open a File Upload knowledge base.
 2. Click **Upload**.
@@ -135,13 +135,13 @@ Use these actions whenever your business information changes.
 5. Wait for upload to complete and review rows in the document table.
 6. Click **Sync knowledge** on the knowledge detail page (or open the actions menu and choose **Synchronize**) so uploaded files are processed and become available to AI. Watch the status column until documents move out of **Pending** / **Syncing** into **Ready** when processing succeeds.
 
-![Sync knowledge after uploading documents](/img/sync-document.png)
+![Sync knowledge after uploading documents](/static/img/sync-document.png)
 
 If a file fails, check the file type and try again.
 
 ## Test Knowledge before using it with AI
 
-![Test Knowledge](/img/test-document.png)
+![Test Knowledge](/static/img/test-document.png)
 
 Use **Test Knowledge** to ask sample questions before connecting the Knowledge to an AI Agent.
 
@@ -167,7 +167,7 @@ For best results, connect only Knowledge that is ready and accurate.
 
 ## Delete a knowledge base
 
-![Delete Knowledge](/img/action-knowledge.png)
+![Delete Knowledge](/static/img/action-knowledge.png)
 
 1. Open the knowledge detail page.
 2. Open the action menu.

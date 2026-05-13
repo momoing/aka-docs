@@ -56,7 +56,7 @@ Important behavior in the current UI:
 
 ## Create a new role
 
-![Create role dialog](/img/create-role.png)
+![Create role dialog](/static/img/create-role.png)
 
 Create a role when a group of users needs the same access.
 
@@ -68,7 +68,7 @@ Create a role when a group of users needs the same access.
 3. Click **Continue**.
 4. In **Add permissions**, select the permissions you want.
 
-![Add permissions](/img/list-permission.png)
+![Add permissions](/static/img/list-permission.png)
 
 5. Click **Create role** to finish.
 
@@ -114,7 +114,7 @@ Storage permissions stay disabled until the role has at least one permission fro
 
 ## Delete a role
 
-![Delete role dialog](/img/delete-role.png)
+![Delete role dialog](/static/img/delete-role.png)
 
 1. Open the 3-dot menu on a role card.
 2. Select **Delete**.
@@ -130,7 +130,7 @@ Creating roles and assigning roles are two separate steps:
 2. Open **Organization -> User Management**.
 3. On the target user row, click **Assign Role** (shield icon).
 
-![Assign role dialog](/img/assign-role.png)
+![Assign role dialog](/static/img/assign-role.png)
 
 4. Select one or more roles, then save.
 

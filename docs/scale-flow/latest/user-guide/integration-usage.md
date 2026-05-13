@@ -29,12 +29,12 @@ There are 2 places in the left menu:
 
 - **Integrations**: browse providers and start connecting
 
-![Integration connection](/img/integration-connection.png)
+![Integration connection](/static/img/integration-connection.png)
 
 
 - **Integration Connections**: see all existing connections across providers
 
-![Integrations provider list](/img/list-integration.png)
+![Integrations provider list](/static/img/list-integration.png)
 
 If you cannot connect or edit integrations, ask your admin to grant integration management access.
 
@@ -56,7 +56,7 @@ Other providers in the grid may show **Coming soon** and cannot be connected yet
    - **Continue on HubSpot** (HubSpot), or
    - **Continue with Google** (Google Sheets / Google Drive).
 
-   ![Connect Google Drive flow](/img/connect-google-drive.png)
+   ![Connect Google Drive flow](/static/img/connect-google-drive.png)
 
 6. Complete authorization in provider popup.
 7. Return to ScaleFlow and verify the connection appears in the provider page.
@@ -163,4 +163,4 @@ After connecting, you can create [Knowledge](./knowledge-usage) from selected Dr
 - Remove unused connections to reduce confusion and permission risk.
 - Connect only business accounts that your organization approves.
 
-![Delete connection confirmation dialog](/img/delete-connection.png)
+![Delete connection confirmation dialog](/static/img/delete-connection.png)
