@@ -10,7 +10,7 @@ displayed_sidebar: agentSidebar
 
 ## **Before you Start**
 
-Your akaBot Studio will use the **same**deactivation method as your activation method.
+Your akaBot Studio will use the **same** deactivation method as your activation method.
 
 1. If your akaBot Agent has been activated **online**, deactivation method will be **Online Deactivation**.  
    Please make sure that your akaBot Studio computer has the *Internet Connection.*
@@ -40,11 +40,11 @@ Please follow below steps to deactivate akaBot Agent online:
 
 ![image-20230726152839-3.png](/img/3228dc_image-20230726152839-3.png)
 
-After **successful**deactivation, akaBot Agent shows below message:
+After **successful** deactivation, akaBot Agent shows below message:
 
 ![image-20230726152839-4.png](/img/0abb6c_image-20230726152839-4.png)
 
-If your computer is not connected to the Internet, akaBot Agent will show below **error**message. Please check your network connection.
+If your computer is not connected to the Internet, akaBot Agent will show below **error** message. Please check your network connection.
 
 ![image-20230726152839-5.png](/img/1c8da5_image-20230726152839-5.png)
 
@@ -126,10 +126,10 @@ Please follow below steps to deactivate akaBot Agent online:
 
 ![image-20230726152839-16.png](/img/714e3b_image-20230726152839-16.png)
 
-akaBot Agent will automatically connect to Center and deactivate the license. After **successful**deactivation, akaBot Agent shows below message:
+akaBot Agent will automatically connect to Center and deactivate the license. After **successful** deactivation, akaBot Agent shows below message:
 
 ![image-20230726152839-17.png](/img/d0feab_image-20230726152839-17.png)
 
-If your computer is not connected to the Internet, akaBot Agent will show below **error**message. Please check your network connection.
+If your computer is not connected to the Internet, akaBot Agent will show below **error** message. Please check your network connection.
 
 ![image-20230726152839-18.png](/img/034a08_image-20230726152839-18.png)
