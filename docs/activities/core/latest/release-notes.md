@@ -10,13 +10,21 @@ displayed_sidebar: activitiesSidebar
 
 ## **RCA.Activities.Core v2.2.0.1**
 
-### **Bugs Fixed**
+**Bugs fixed**
 
-* [Fixed] Show error message when continue on error is true but still showing exception at CopyDirectory activity
-* [Fixed] [Selectfile] Allow to select file but when selecting it still shows the message error
-* [Fixed] [ImageClick] Wrong show error message when input [Confident] is a navigate number
-* [Fixed] [ReadTextFile] Behavior of Encoding is incorrect
+* Show error message when continue on error is true but still showing exception at CopyDirectory activity
+* [Selectfile] Allow to select file but when selecting it still shows the message error
+* [ImageClick] Wrong show error message when input [Confident] is a navigate number
+* [ReadTextFile] Behavior of Encoding is incorrect
 
-### **Features added**
+**Features added**
 
-* [Added] Added the modified date property to the condition filter of RCA.Activities.Core.GetFiles
+* Added the modified date property to the condition filter of RCA.Activities.Core.GetFiles
+
+## **RCA.Activities.Core v2.3.0**
+
+**Features added**
+
+* Start Task, Stop Task, Get Task activities
+* Repeat number of time activity
+* Pick, Pick Branch activities
