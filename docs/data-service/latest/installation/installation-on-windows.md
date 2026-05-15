@@ -27,7 +27,7 @@ Download the latest release version of DataService from the [Release Notes](http
 
 ![1775807383276-429.png](/static/img/00d47e_1775807383276-429.png)
 
-Download NSSM - the Non-Sucking Service Manager in this link:<https://nssm.cc/download>. It’s required to run DataService as a Windows service. Whenever your system is restarted, the NSSM helps us to run DataService again without manual logging in to start it.
+Download NSSM - the Non-Sucking Service Manager in this link: [https://nssm.cc/download](https://nssm.cc/download). It’s required to run DataService as a Windows service. Whenever your system is restarted, the NSSM helps us to run DataService again without manual logging in to start it.
 
 Extract files to: C:\akaBot\DataService\nssm\win64\nssm.exe
 

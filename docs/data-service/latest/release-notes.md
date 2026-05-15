@@ -52,7 +52,7 @@ displayed_sidebar: dataServiceSidebar
 * [Added] Support display field ordering.
 * [Added] Allow creating, updating, and deleting data directly on the browser.
 
-Link: <https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk>
+Link: [https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk](https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk)
 
 ---
 # v1.1.1.1 
@@ -62,6 +62,6 @@ Link: <https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk>
 * [Added] Allow selecting entities for schema import/export.
 * [Added] Apply role-based access control in the Entity Manager screen.
 
-Link: <https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX>
+Link: [https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX](https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX)
 
 ---
