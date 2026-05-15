@@ -1,10 +1,10 @@
 {
   "label": "Data Service",
-  "position": 14,
+  "position": 6,
   "collapsible": true,
   "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Store, query, and manage structured data used across your automation workflows."
+    "description": "Get started with Data Service: view system requirements, follow installation guides, and set up your environment."
   }
 }
