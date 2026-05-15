@@ -1,0 +1,10 @@
+{
+  "label": "Installation",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Find detailed guides on system requirements, database setup, and the installation process for akabot Data Service on Windows and Linux."
+  }
+}

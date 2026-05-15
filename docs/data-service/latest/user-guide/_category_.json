@@ -1,0 +1,10 @@
+{
+  "label": "User Guide",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to work with Data Service — from managing access and permissions to creating entities and integrating with your automation workflows."
+  }
+}
