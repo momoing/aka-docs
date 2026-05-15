@@ -4,58 +4,64 @@ title: Release Notes
 sidebar_label: Release Notes
 sidebar_position: 2
 description: What's new, improved, and fixed in each version of Akabot Data Service.
-displayed_sidebar: dataSidebar
+displayed_sidebar: dataServiceSidebar
 ---
 
-# Data Service — Release Notes
+# Data Service - Release Notes
 
-## v3.2.0 — April 2026
+## v1.0.1.5
 
-### New features
-- **Computed fields** — Define read-only fields whose values are derived from a formula over other fields in the same entity.
-- **Entity relationships** — Link records across entities with foreign-key style references and follow them in a single API call.
-- **Bulk upsert API** — Insert or update up to 5,000 records in a single request with conflict resolution options.
+## **Bug fixes**
 
-### Improvements
-- Query API now supports `$orderBy`, `$top`, and `$skip` OData parameters for server-side pagination.
-- Record history retention period is now configurable per entity (default 90 days).
-- Studio activities show auto-complete suggestions for entity names and field paths.
+* Error encountered when importing JSON files containing Vietnamese characters.
+* Data is still being automatically created in the database even when the import process is unsuccessful.
 
-### Bug fixes
-- Fixed a deadlock when two workflows performed concurrent upsert operations on the same record.
-- Resolved incorrect `updatedAt` timestamps when records were modified via the REST API.
-- Fixed export to Excel failing for entities with more than 65,000 records.
+## **Improvements**
 
----
+* [Timezone] Previously, when downloading a report from the data service, there was only one option available, which was to download it in the UTC timezone. This made it difficult for end users to filter the data they desired. -> Currently, users can download data in their preferred time zone, for example, UTC+7.
+* [Filter with Null value] Previously, when filtering data on the Data service, there was no option to search for records with a Null value. -> Now, an option to filter data by Null value has been added.
+* [Permission Settings] Enhanced the UX in the permission settings to streamline user interactions.
+* [Perfromance] Significant performance improvements have been achieved by allowing the creation of indexes for fields (excluding fields with a data type of BIT), with a maximum of three fields being indexed.
+* Previously, there was no warning for users when they selected a field without providing a value. Currently, a warning is displayed
 
-## v3.1.0 — January 2026
+## **Feature availability**
 
-### New features
-- **Field-level encryption** — Mark individual fields as encrypted-at-rest; decrypted values are only returned to authorized callers.
-- **Webhooks** — Trigger an outbound HTTP call whenever a record is created, updated, or deleted.
-- **Import from CSV** — Bulk-import records directly from a CSV file in the Center portal.
-
-### Improvements
-- Maximum entity count per tenant increased from 50 to 200.
-- Maximum field count per entity increased from 50 to 150.
-- REST API responses now include an `X-Request-Id` header for distributed tracing.
-
-### Bug fixes
-- Fixed a schema migration issue that caused field reordering to be lost after a Center upgrade.
-- Corrected permission checks that allowed read-only users to call the delete endpoint.
+* [Export/ Import Schema] Instead of manually creating individual entities and fields, users have the option to import/export schema data in JSON format to save effort.
+* [Data deletion] Allows the deletion of one or multiple data entries on the Data Service (using advanced filters).
 
 ---
+# v1.0.0
 
-## v3.0.0 — September 2025
+## **Feature availability**
 
-### New features
-- **Data Service v3 launch** — New schema-driven NoSQL store replacing the legacy Orchestrator assets system.
-- **Visual schema builder** — Create and modify entity schemas directly in the Center web UI with no downtime.
-- **Studio activity pack** — First-party `Create Record`, `Get Record`, `Update Record`, and `Delete Record` activities.
+* Create Entity
+* Edit Entity
+* Delete Entity
+* Create Field
+* Update Field
+* Delete Field
+* Activities with Data
+* Advanced Filter in Data Service
+* Manage Access
 
-### Breaking changes
-- Legacy Orchestrator `Assets` API is deprecated; migrate asset-backed data to Data Service entities.
-- Existing assets are read-only in v3.0 and will be removed in v4.0.
+---
+# v1.1.1.0
 
-### Bug fixes
-- Resolved an issue where deleting an entity with active record references threw an unhandled 500 error.
+## **Added**
+
+* [Added] Support display field ordering.
+* [Added] Allow creating, updating, and deleting data directly on the browser.
+
+Link: <https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk>
+
+---
+# v1.1.1.1 
+
+## **Added**
+* [Added] Increase entity name length from 20 to 30 characters.
+* [Added] Allow selecting entities for schema import/export.
+* [Added] Apply role-based access control in the Entity Manager screen.
+
+Link: <https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX>
+
+---

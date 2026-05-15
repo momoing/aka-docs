@@ -1,0 +1,10 @@
+{
+  "label": "How to Use Data Service",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step guides for creating, editing, and deleting entities and fields, as well as using advanced filters in Data Service."
+  }
+}

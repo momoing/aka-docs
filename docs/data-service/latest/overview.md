@@ -1,41 +1,23 @@
 ---
 id: overview
-title: Data Service
+title: Akabot Data Service
 sidebar_label: Overview
 sidebar_position: 1
-description: Store, query, and manage structured data used across your automation workflows.
-displayed_sidebar: dataSidebar
+description: Akabot Data Service is a centralized data storage solution designed for Robotic Process Automation (RPA) projects.
+displayed_sidebar: dataServiceSidebar
 ---
+# Akabot Data Service
 
-# Data Service
+Akabot Data Service is a centralized data storage solution designed for Robotic Process Automation (RPA) projects. It provides secure, scalable, and no-code data modeling capabilities that help robots and workflows store, retrieve, and process business data efficiently across your automation ecosystem.
 
-Akabot Data Service provides a managed, schema-driven data store that automation workflows can read from and write to at runtime. It removes the need to maintain external databases for workflow state, lookup tables, audit trails, or inter-process communication.
+Data Service enables organizations to maintain structured business data in a single location while supporting both attended and unattended automation scenarios.
 
 ## Key features
 
-- **Schema builder** — Define entities (tables) and fields visually with type validation, without writing SQL.
-- **CRUD from workflows** — Built-in Studio activities let workflows create, read, update, and delete records at runtime.
-- **Record history** — Every change is versioned so you can audit what data a workflow read or wrote during a run.
-- **Access control** — Restrict which robots, processes, or users can read or modify each entity.
-- **REST API** — Query or modify records from external systems using the Data Service REST API.
-- **Export / Import** — Export entity data to CSV/Excel or bulk-import seed data.
+- **Centralized data storage** — Store and manage business data securely within the akaBot platform.
+- **No-code data modeling** — Create and manage structured data entities without writing database scripts.
+- **Workflow integration** — Seamlessly integrate data operations into workflows created in Akabot Studio.
+- **Relational data support** — Organize data using structured relationships for better processing and reporting.
+- **Secure data management** — Protect sensitive business information with built-in security mechanisms.
+- **Fast deployment** — Quickly provision and deploy Data Service for immediate use in automation projects.
 
-## Common use cases
-
-| Use case | Description |
-|----------|-------------|
-| **Lookup tables** | Store product codes, employee IDs, or routing rules that multiple workflows share. |
-| **Process state** | Track the progress of long-running, multi-step processes across runs. |
-| **Audit log** | Record inputs, outputs, and decisions made by every workflow execution. |
-| **Configuration** | Centralize environment-specific settings that can be updated without redeploying a workflow. |
-
-## Getting started
-
-1. Open Akabot Center and navigate to **Data Service**.
-2. Create a new entity and define its fields.
-3. Use the **Data Service** activities in Studio to read or write records.
-
-## Next steps
-
-- [API Reference](/docs/latest/api-reference/overview) — Query Data Service via REST.
-- [Admin guide](/docs/latest/admin/overview) — Manage permissions and storage quotas.
