@@ -1,5 +1,5 @@
 ---
-id: license-renewal
+id: license-deactivation
 title: "License Deactivation"
 sidebar_label: "License Deactivation"
 sidebar_position: 5
