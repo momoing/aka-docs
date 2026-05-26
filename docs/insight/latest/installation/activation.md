@@ -11,4 +11,4 @@ displayed_sidebar: insightSidebar
 
 ![1693969773750-736.png](/static/img/1693969773750-736.png)
 
-**Step 2:** After activation, there is one additional step required to enable your users to use akaBot Insights: **assigning users**. For more detailed instructions, please refer to the [Users](#) tab.
+**Step 2:** After activation, there is one additional step required to enable your users to use akaBot Insights: **assigning users**. For more detailed instructions, please refer to the [Users](../administration/users.md) tab.
