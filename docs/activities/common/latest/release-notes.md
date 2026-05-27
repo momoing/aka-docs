@@ -9,17 +9,19 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
-## v4.5.0 - May 14, 2026
+## v4.6.0
 
-- Fixed: logic that get descendant process to prevent error in some cases
-- Improved: the communication between activity and Native Host
-- Fixed: eager-loads ProcessName during collection so that downstream consumers iterating the returned list don't race on property access after the child has exited
-- Update: log trace level
+Build date: May 25, 2026
 
-## v4.4.0 - Jun 29, 2026
-
-- Fixed: reused the same request id when retrying browser script execution. This allows the activity to accept the result of an earlier request if the NativeHost delays forwarding messages to the browser extension.
-- Update: change logger.tag() to logger.log() to let Common package compatible with lower version of NativeHost/Platform.
+* Fixed: change dependency to Newtonsoft.Json 10.0.1 in net452
+* Fixed: backward compatible with named pipe library in older platform version
+* Fixed: extension script to find browser window
+* Fixed: managing named pipe connection pool for better stability
+* Fixed: logic that get descendant process to prevent stack overflow exception
+* Fixed: Eager-loads ProcessName during collection so that downstream consumers iterating the returned list don't race on property access after the child has exited
+* Fixed: Reused the same request id when retrying browser script execution. This allows the activity to accept the result of an earlier request if the NativeHost delays forwarding messages to the browser extension.
+* Update: change logger.tag() to logger.log() to let Common package compatible with lower version of NativeHost/Platform.
+* Update: log trace level
 
 ## v3.3.0.0
 - Added: Kill Process activity
