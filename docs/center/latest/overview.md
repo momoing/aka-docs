@@ -32,7 +32,7 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 | Step | Description |
 |------|-------------|
-| 1 | [Install Akabot Center server](/docs/center/latest/installation/license-activation.md) |
+| 1 | [Install Akabot Center server](./installation/license-activation.md) |
 | 2 | Create an environment and add robot machines |
 | 3 | Publish a workflow from Akabot Studio |
 | 4 | Create a schedule or trigger a manual run |
@@ -40,6 +40,6 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 ## Next steps
 
-- [Connect Agent to Akabot Center](../../agent/latest/user-guide/how-to-use.md)
+- [Connect Agent to Akabot Center](/docs/agent/latest/user-guide/how-to-use.md)
 - [Schedule time to run Agent](user-guide/how-to-use-by-function/operation-functions/automation/schedule.md)
 - [Admin & Ops guide](user-guide/how-to-use-by-function/operation-functions/administration/user-management.md)

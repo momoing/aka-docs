@@ -9,5 +9,5 @@ displayed_sidebar: agentSidebar
 
 # Akabot Agent — Downloads
 
-Akabot Agent ships bundled with the Akabot Studio installer. Please, go to Studio [Downloads](../../studio/latest/downloads.md) page and choose the appropriate version with your need.
+Akabot Agent ships bundled with the Akabot Studio installer. Please, go to Studio [Downloads](/docs/studio/latest/downloads.md) page and choose the appropriate version with your need.
 
