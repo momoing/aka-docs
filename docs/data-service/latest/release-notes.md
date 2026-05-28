@@ -86,3 +86,5 @@ Click [this link](https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk) to download.
 * Activities with Data
 * Advanced Filter in Data Service
 * Manage Access
+
+> **Note:** Contact our [support team](mailto:support@akabot.com) to get download password.

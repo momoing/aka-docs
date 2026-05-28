@@ -13,7 +13,7 @@ displayed_sidebar: centerSidebar
 
 Build date: May 22, 2026
 
-Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) and then contact [support team](mailto:support@akabot.com) to get download password.
+Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) to download.
 
 ### New features
 
@@ -50,7 +50,7 @@ Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) and then contac
 
 Build date: Apr 10, 2026
 
-Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [support team](mailto:support@akabot.com) to get download password.
+Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) to download.
 
 ### New features
 - Added caching functionality to reduce requests to external Vault systems.
@@ -166,7 +166,7 @@ Build date: Dec 20, 2024
 
 Build date: May 21, 2024.
 
-Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) and then contact [support team](mailto:support@akabot.com) to get download password.
+Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) to download.
 
 ### New features
 - Add priority for agent pool
@@ -194,7 +194,7 @@ Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) and then contac
 
 Build date: Sep 22, 2023
 
-Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contact [support team](mailto:support@akabot.com) to get download password.
+Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) to download.
 
 ### New features
 - [Messages] Enhance error messages to provide clearer descriptions for users.
@@ -388,3 +388,4 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contac
 - [Added] Improve filters.
 ---
 
+> **Note:** Contact our [support team](mailto:support@akabot.com) to get download password.
