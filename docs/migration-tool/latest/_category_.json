@@ -1,0 +1,10 @@
+{
+  "label": "Migration Tool",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Analyze, evaluate complexity, and automatically convert RPA projects to akaBot."
+  }
+}
