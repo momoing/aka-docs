@@ -14,7 +14,7 @@ RCA.Activities.Core.InvokeProcess
 
 With this activity, you can invoke a process using process directory of process name. 
 
-![invoke process](/static/img/invoke-process.png)
+![invoke-process](/static/img/invoke-process.png)
 
 (\* for Mandatory)
 
