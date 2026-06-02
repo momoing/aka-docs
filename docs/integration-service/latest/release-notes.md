@@ -33,7 +33,6 @@ displayed_sidebar: integrationServiceSidebar
 - Fixed webhook events being dropped when the receiving workflow was already at max concurrency.
 
 ---
-
 ## v3.1.0 — January 2026
 
 **New features**
@@ -55,7 +54,6 @@ displayed_sidebar: integrationServiceSidebar
 - Corrected field mapping for connectors using ISO 8601 date formats with timezone offsets.
 
 ---
-
 ## v3.0.0 — September 2025
 
 **New features**

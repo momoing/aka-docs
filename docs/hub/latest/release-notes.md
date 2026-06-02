@@ -27,7 +27,6 @@ displayed_sidebar: hubSidebar
 - Fixed broken thumbnail previews for packages uploaded from macOS with extended attributes.
 
 ---
-
 ## v3.1.0 — January 2026
 
 **New features**
@@ -45,7 +44,6 @@ displayed_sidebar: hubSidebar
 - Corrected star ratings not updating in real time after a review was submitted.
 
 ---
-
 ## v3.0.0 — September 2025
 
 **New features**

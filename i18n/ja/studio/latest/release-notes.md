@@ -54,7 +54,7 @@ displayed_sidebar: studioSidebar
 * PCOMM 3.1.0.0
 * Python 3.1.0.5
 * Word 3.2.1.0
-
+---
 ## v2.2.0.11
 
 **新機能**
@@ -66,7 +66,7 @@ displayed_sidebar: studioSidebar
 
 * 競合状態により、ブラウザ拡張機能 v3.0.5 で複数のスクリプトがロードされます。
 * ネイティブ ホストでメッセージを送受信する際の競合状態。
-
+---
 ## v2.2.0.10
 
 * [更新] Windows SDK がバージョン 10.0.19041.0 にアップグレードされました。
@@ -75,19 +75,23 @@ displayed_sidebar: studioSidebar
 
 イベント トリガーを有効にするには、ファイル C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config で AutoStartEventTrigger=True を設定します。
 
+---
 ## v2.2.0.9
 
 * 追加: Studio オプション画面から Firefox 拡張機能をインストールする
 * 追加: Firefox xpi ファイルをインストールフォルダーに追加
 
+---
 ## v2.2.0.8b
 
 * 修正: 間違った Microsoft Edge 拡張機能 ID とレジストリ値
 
+---
 ## v2.2.0.8a
 
 * 修正: プラットフォーム バージョン &lt;= 2.2.0.7 と互換性を持たせるために、エンコード前に JSON 文字列値を逆シリアル化します。
 
+---
 ## v2.2.0.8
 
 * Studio 構成に gitlab nuget リポジトリ サーバーを追加しました
@@ -100,6 +104,7 @@ displayed_sidebar: studioSidebar
 * 追加: ユーザーが Chrome および Edge 拡張機能をインストール、アンインストールできる Studio 管理ページ
 * 修正: エージェント UI で設定が変更された場合、ブラウザの自動検出が正しく機能しない
 
+---
 ## v2.2.0.7c
 
 **スタジオとエージェント**
@@ -140,6 +145,7 @@ displayed_sidebar: studioSidebar
 * [追加] LookupRange アクティビティ。
 * [修正] 結合されたセルのシナリオでのルックアップ動作。
 
+---
 ## v2.2.0.5
 
 **アカボットスタジオ**
@@ -223,6 +229,7 @@ displayed_sidebar: studioSidebar
 * より復元力の高い名前付きパイプ通信
 * より強力なロギングと診断
 
+---
 ## v2.2.0.3
 
 **新機能**
@@ -239,6 +246,7 @@ displayed_sidebar: studioSidebar
 * マイナーなバグ RCA.Activities.Common.1.0.0.1.nupkg、RCA.Activities.Java.2.3.0.1.nupkg (Java x86 および SAP) を修正しました。
 * ネイティブブラウザパッケージのロードスクリプトに関する軽微なバグを修正
 
+---
 ## v2.2.0.2
 
 **新機能**
@@ -275,6 +283,7 @@ displayed_sidebar: studioSidebar
 * プロジェクトの公開時に、正確な原因を示す特定のエラー メッセージが追加されました。
 * アクティビティのスクリーンショットの取得: デフォルトでは、全画面画像がキャプチャされます (セレクターが選択されていない場合)。
 
+---
 ## v2.2.0.1
 
 **バグ修正**
@@ -295,6 +304,7 @@ displayed_sidebar: studioSidebar
 * Ctrl+K、Ctrl+M、SelectorEditor の場合、Unicode 文字を使用して新しい変数/引数を作成することを許可し、変数/引数名を VB タイプと同じにすることは許可しません。
 * 名前空間/アセンブリ RCA.Activities.Core をデフォルトのテンプレートにインポートします。
 
+---
 ## v2.0.5.5
 
 **バグ修正**
@@ -305,6 +315,7 @@ displayed_sidebar: studioSidebar
 
 * ライセンスのアクティベーションは StartDate より前でも可能です。
 
+---
 ## v2.0.5.4
 
 **新機能**

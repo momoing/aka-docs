@@ -27,7 +27,6 @@ displayed_sidebar: visionSidebar
 - Fixed extraction template editor not saving changes when switching document types without explicit save.
 
 ---
-
 ## v3.1.0 — January 2026
 
 **New features**
@@ -45,7 +44,6 @@ displayed_sidebar: visionSidebar
 - Corrected field extraction on documents with right-to-left (RTL) text mixed with LTR content.
 
 ---
-
 ## v3.0.0 — September 2025
 
 **New features**

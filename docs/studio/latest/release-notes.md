@@ -56,8 +56,8 @@ displayed_sidebar: studioSidebar
 * PCOMM 3.1.0.0
 * Python 3.1.0.5
 * Word 3.2.1.0
----
 
+---
 ## v2.2.0.12
 
 * Added: CRX files for Chrome and Edge extension v3.0.5
@@ -69,8 +69,8 @@ displayed_sidebar: studioSidebar
 * Fixed: [NativeHost]send message via stdout on a worker thread so a browser shutting down cannot hang the extension thread forever.
 * Fixed: [NamedPipeWrapper.dll] named pipe server to not allow adding connections while disposing
 * Fixed: [Agent] log4net logging format
----
 
+---
 ## v2.2.0.11
 
 **New features**
@@ -82,8 +82,8 @@ displayed_sidebar: studioSidebar
 
 * Race condition causing multiple script loads in Browser Extension v3.0.5.
 * Race condition when sending and receiving messages in Native Host.
----
 
+---
 ## v2.2.0.10
 
 * [Updated] Windows SDK upgraded to version 10.0.19041.0.
@@ -93,20 +93,22 @@ displayed_sidebar: studioSidebar
 To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config
 
 ---
-
 ## v2.2.0.9
 
 * Added: install Firefox extension from Studio Options screen
 * Added: Firefox xpi files to installation folder
 
+---
 ## v2.2.0.8b
 
 * Fixed: wrong Microsoft Edge extension id and registry value
 
+---
 ## v2.2.0.8a
 
 * Fixed: deserialize JSON string value before encode to make it compatible with platform version &lt;= 2.2.0.7
 
+---
 ## v2.2.0.8
 
 * Added: gitlab nuget repository server to Studio configuration
@@ -119,6 +121,7 @@ To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program
 * Added: Studio management page that allows users to install, uninstall Chrome & Edge extensions
 * Fixed: browser auto-detect not works correctly when settings changed in Agent UI
 
+---
 ## v2.2.0.7c
 
 **Studio & Agent**
@@ -161,6 +164,7 @@ To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program
 
 Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
+---
 ## v2.2.0.5
 
 **akaBot Studio**
@@ -246,6 +250,7 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 
 Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
+---
 ## v2.2.0.3
 
 **New features**
@@ -264,6 +269,7 @@ Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Passw
 
 Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
+---
 ## v2.2.0.2
 
 **New features**
@@ -302,6 +308,7 @@ Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Passwo
 
 Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
+---
 ## v2.2.0.1
 
 **Bug fixes**
@@ -322,6 +329,7 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 * Allow to create new Variable/Argument with Unicode characters and not allow Variable/Argument name to be the same as VB type when Ctrl+K, Ctrl+M, SelectorEditor.
 * Import namespace/assembly RCA.Activities.Core into the default template.
 
+---
 ## v2.0.5.5
 
 **Bug fixes**
@@ -332,6 +340,7 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 
 * License activation is possible before StartDate.
 
+---
 ## v2.0.5.4
 
 **New features**

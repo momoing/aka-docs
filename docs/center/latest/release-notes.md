@@ -15,8 +15,8 @@ displayed_sidebar: centerSidebar
 
 - Fixed incorrect Secret Manager Type handling.
 - Issue introduced in v4.0.0.11.
----
 
+---
 ## v4.0.0.12
 **Added**
 * **Trigger**
@@ -43,7 +43,6 @@ displayed_sidebar: centerSidebar
 - Fixed schedule query when clean data is configured (cast data to text instead of bigint).
 
 ---
-
 ## v4.0.0.11
 
 **Added**
@@ -77,10 +76,12 @@ displayed_sidebar: centerSidebar
   *  Agent Pool Creation Failure 
   *  Asset Assignment UI Issue : When creating a new asset and enabling "Assign all value to specific user," the user selection dropdown menu remains greyed out and cannot be used.
 
+---
 ## v4.0.0.9c
 **Fixed**
 * Fixed issue where exported logs were not sorted.
 
+---
 ## v4.0.0.9
 **Updated**
 *  Introduced a new permission MANAGEMENT LICENSE for roles.
@@ -89,6 +90,8 @@ displayed_sidebar: centerSidebar
 
 **Fixed**
 * Resolved an issue where newly added agents in the Agent Pool did not automatically pick up or run jobs.
+
+---
 ## v4.0.0.8
 **Updated**
 * License Details: Added display of license details — License → Get LMS License
@@ -96,8 +99,8 @@ displayed_sidebar: centerSidebar
 * User Management: Allowed updating user information for LDAP users (configurable via settings)
  ` enable-update-user: false`
 * Audit Log Access: Added role-based permission for viewing audit logs (previously restricted to admin only)
---- 
 
+--- 
 ## v4.0.0.7
 **Added**
  * Added MFA feature.
@@ -109,16 +112,16 @@ displayed_sidebar: centerSidebar
 **Fixed**
  * Fixed VCB pentest: 1 high, 1 medium and 4 low.
  * Holiday could not be saved.
----
 
+---
 ## v4.0.0.6
 **Added**    
  * Added integration with AWS Secrets Manager (config files, Agent's credential, Asset). 
 
 **Updated**
  * New akaBot's logo, favicon icon.
- ---
 
+ ---
 ## v4.0.0.5
 **New features**
 
@@ -168,7 +171,6 @@ displayed_sidebar: centerSidebar
 - **[Required]** JDK 17
 
 ---
-
 ## v4.0.0.4
 
 **Fixed**
@@ -183,7 +185,6 @@ displayed_sidebar: centerSidebar
 - JDK 17
 
 ---
-
 ## v4.0.0.3
 
 **Fixed**
@@ -192,14 +193,14 @@ displayed_sidebar: centerSidebar
 **Required**
  * Tomcat 10
  * JDK 17
----
 
+---
 ## v4.0.0.2
 
-**New features**
-- **[Added]** Support LDAP integration.
-- **[Added]** Clean duplicated jobs in scheduler.
-- **[Added]** Provide data refresh function (reindex search data).
+**Added**
+- Support LDAP integration.
+- Clean duplicated jobs in scheduler.
+- Provide data refresh function (reindex search data).
 
 **Updated**
 - Upgrade Spring Boot from version 3.3.0 to 3.3.6.
@@ -215,7 +216,6 @@ displayed_sidebar: centerSidebar
 - JDK 17
 
 ---
-
 ## v3.0.1.4
 
 **New features**
@@ -239,7 +239,6 @@ displayed_sidebar: centerSidebar
 - Fix asset and queue don't have OU
 
 ---
-
 ## v3.0.1.3
 
 **New features**
@@ -266,7 +265,6 @@ displayed_sidebar: centerSidebar
 - [Database] Migration failure in Oracle due to 20230703_app_integration_token.
 
 ---
-
 ## v3.0.1.2 
 
 **New features**
@@ -356,7 +354,6 @@ displayed_sidebar: centerSidebar
 17. [Webhook] can still be created even when there is no event.
 
 --- 
-
 ## v3.0.0.0
 
 **New features**
@@ -378,7 +375,6 @@ displayed_sidebar: centerSidebar
 - Token expiration was fixed to be more flexible.
 
 --- 
-
 ## v2.2.0.1
 
 **New features**
@@ -400,7 +396,6 @@ displayed_sidebar: centerSidebar
 - Security improvement
 
 ---
-
 ## v2.0.5.5
 
 **New features**
@@ -409,7 +404,6 @@ displayed_sidebar: centerSidebar
 - [Updated] Expand Description, Release Note display field to much wider (2 col) on Package Repository details page.
 
 **Added**
-
 * Connection confirmation function added to Agent setting screen.
 * Add information to the package repository.
 * Add RDP Settings for Agent.
@@ -420,7 +414,6 @@ displayed_sidebar: centerSidebar
 - Showing the wrong result when the filter starts time by minutes/hours. Similar error at Task, Log, entity-audit listing pages.
 
 ---
-
 ## v2.0.5.4
 
 **Added**
